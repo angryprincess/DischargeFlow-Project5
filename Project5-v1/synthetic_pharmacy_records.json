@@ -1,0 +1,3724 @@
+{
+  "brand_to_generic": [
+    {
+      "brand_name": "Augmentin",
+      "generic_name": "amoxicillin + clavulanate",
+      "drug_class": "penicillin",
+      "strengths": [
+        "625 mg",
+        "1g"
+      ]
+    },
+    {
+      "brand_name": "Moxclav",
+      "generic_name": "amoxicillin + clavulanate",
+      "drug_class": "penicillin",
+      "strengths": [
+        "625 mg",
+        "1g"
+      ]
+    },
+    {
+      "brand_name": "Clavam",
+      "generic_name": "amoxicillin + clavulanate",
+      "drug_class": "penicillin",
+      "strengths": [
+        "625 mg"
+      ]
+    },
+    {
+      "brand_name": "Mox",
+      "generic_name": "amoxicillin",
+      "drug_class": "penicillin",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Amoxil",
+      "generic_name": "amoxicillin",
+      "drug_class": "penicillin",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Ampilox",
+      "generic_name": "ampicillin",
+      "drug_class": "penicillin",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Piptaz",
+      "generic_name": "piperacillin + tazobactam",
+      "drug_class": "penicillin",
+      "strengths": [
+        "4.5g"
+      ]
+    },
+    {
+      "brand_name": "Floxapen",
+      "generic_name": "flucloxacillin",
+      "drug_class": "penicillin",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Taxim-O",
+      "generic_name": "cefixime",
+      "drug_class": "cephalosporin",
+      "strengths": [
+        "200 mg"
+      ]
+    },
+    {
+      "brand_name": "Cefix",
+      "generic_name": "cefixime",
+      "drug_class": "cephalosporin",
+      "strengths": [
+        "200 mg"
+      ]
+    },
+    {
+      "brand_name": "Monocef",
+      "generic_name": "ceftriaxone",
+      "drug_class": "cephalosporin",
+      "strengths": [
+        "1g"
+      ]
+    },
+    {
+      "brand_name": "Ceff",
+      "generic_name": "cephalexin",
+      "drug_class": "cephalosporin",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Altacef",
+      "generic_name": "cefuroxime",
+      "drug_class": "cephalosporin",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Cefpo",
+      "generic_name": "cefpodoxime",
+      "drug_class": "cephalosporin",
+      "strengths": [
+        "200 mg"
+      ]
+    },
+    {
+      "brand_name": "Magnex",
+      "generic_name": "cefoperazone + sulbactam",
+      "drug_class": "cephalosporin",
+      "strengths": [
+        "1.5g"
+      ]
+    },
+    {
+      "brand_name": "Azithral",
+      "generic_name": "azithromycin",
+      "drug_class": "macrolide",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Zithromax",
+      "generic_name": "azithromycin",
+      "drug_class": "macrolide",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Azee",
+      "generic_name": "azithromycin",
+      "drug_class": "macrolide",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Claribid",
+      "generic_name": "clarithromycin",
+      "drug_class": "macrolide",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Erythrocin",
+      "generic_name": "erythromycin",
+      "drug_class": "macrolide",
+      "strengths": [
+        "250 mg"
+      ]
+    },
+    {
+      "brand_name": "Roxid",
+      "generic_name": "roxithromycin",
+      "drug_class": "macrolide",
+      "strengths": [
+        "150 mg"
+      ]
+    },
+    {
+      "brand_name": "Ciplox",
+      "generic_name": "ciprofloxacin",
+      "drug_class": "fluoroquinolone",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Cifran",
+      "generic_name": "ciprofloxacin",
+      "drug_class": "fluoroquinolone",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Levoflox",
+      "generic_name": "levofloxacin",
+      "drug_class": "fluoroquinolone",
+      "strengths": [
+        "500 mg",
+        "750 mg"
+      ]
+    },
+    {
+      "brand_name": "Tavanic",
+      "generic_name": "levofloxacin",
+      "drug_class": "fluoroquinolone",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Avelox",
+      "generic_name": "moxifloxacin",
+      "drug_class": "fluoroquinolone",
+      "strengths": [
+        "400 mg"
+      ]
+    },
+    {
+      "brand_name": "Moxicip",
+      "generic_name": "moxifloxacin",
+      "drug_class": "fluoroquinolone",
+      "strengths": [
+        "400 mg"
+      ]
+    },
+    {
+      "brand_name": "Oflox",
+      "generic_name": "ofloxacin",
+      "drug_class": "fluoroquinolone",
+      "strengths": [
+        "200 mg",
+        "400 mg"
+      ]
+    },
+    {
+      "brand_name": "Norflox",
+      "generic_name": "norfloxacin",
+      "drug_class": "fluoroquinolone",
+      "strengths": [
+        "400 mg"
+      ]
+    },
+    {
+      "brand_name": "Doxy-1",
+      "generic_name": "doxycycline",
+      "drug_class": "tetracycline",
+      "strengths": [
+        "100 mg"
+      ]
+    },
+    {
+      "brand_name": "Doxt",
+      "generic_name": "doxycycline",
+      "drug_class": "tetracycline",
+      "strengths": [
+        "100 mg"
+      ]
+    },
+    {
+      "brand_name": "Minoz",
+      "generic_name": "minocycline",
+      "drug_class": "tetracycline",
+      "strengths": [
+        "100 mg"
+      ]
+    },
+    {
+      "brand_name": "Garamycin",
+      "generic_name": "gentamicin",
+      "drug_class": "aminoglycoside",
+      "strengths": [
+        "80 mg"
+      ]
+    },
+    {
+      "brand_name": "Amicin",
+      "generic_name": "amikacin",
+      "drug_class": "aminoglycoside",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Tobra",
+      "generic_name": "tobramycin",
+      "drug_class": "aminoglycoside",
+      "strengths": [
+        "80 mg"
+      ]
+    },
+    {
+      "brand_name": "Bactrim",
+      "generic_name": "sulfamethoxazole + trimethoprim",
+      "drug_class": "sulfonamide",
+      "strengths": [
+        "400+80 mg",
+        "800+160 mg"
+      ]
+    },
+    {
+      "brand_name": "Septran",
+      "generic_name": "sulfamethoxazole + trimethoprim",
+      "drug_class": "sulfonamide",
+      "strengths": [
+        "400+80 mg"
+      ]
+    },
+    {
+      "brand_name": "Saaz",
+      "generic_name": "sulfasalazine",
+      "drug_class": "sulfonamide",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Crocin",
+      "generic_name": "paracetamol",
+      "drug_class": "analgesic",
+      "strengths": [
+        "500 mg",
+        "650 mg"
+      ]
+    },
+    {
+      "brand_name": "Dolo",
+      "generic_name": "paracetamol",
+      "drug_class": "analgesic",
+      "strengths": [
+        "650 mg"
+      ]
+    },
+    {
+      "brand_name": "Calpol",
+      "generic_name": "paracetamol",
+      "drug_class": "analgesic",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Tylenol",
+      "generic_name": "paracetamol",
+      "drug_class": "analgesic",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Metacin",
+      "generic_name": "paracetamol",
+      "drug_class": "analgesic",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Ultracet",
+      "generic_name": "tramadol + paracetamol",
+      "drug_class": "analgesic",
+      "strengths": [
+        "37.5+325 mg"
+      ]
+    },
+    {
+      "brand_name": "Contramal",
+      "generic_name": "tramadol",
+      "drug_class": "analgesic",
+      "strengths": [
+        "50 mg",
+        "100 mg"
+      ]
+    },
+    {
+      "brand_name": "Combiflam",
+      "generic_name": "ibuprofen + paracetamol",
+      "drug_class": "nsaid",
+      "strengths": [
+        "400+325 mg"
+      ]
+    },
+    {
+      "brand_name": "Brufen",
+      "generic_name": "ibuprofen",
+      "drug_class": "nsaid",
+      "strengths": [
+        "400 mg",
+        "600 mg"
+      ]
+    },
+    {
+      "brand_name": "Ibugesic",
+      "generic_name": "ibuprofen",
+      "drug_class": "nsaid",
+      "strengths": [
+        "400 mg"
+      ]
+    },
+    {
+      "brand_name": "Voveran",
+      "generic_name": "diclofenac",
+      "drug_class": "nsaid",
+      "strengths": [
+        "50 mg",
+        "75 mg"
+      ]
+    },
+    {
+      "brand_name": "Voltaren",
+      "generic_name": "diclofenac",
+      "drug_class": "nsaid",
+      "strengths": [
+        "50 mg"
+      ]
+    },
+    {
+      "brand_name": "Naprosyn",
+      "generic_name": "naproxen",
+      "drug_class": "nsaid",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Pirox",
+      "generic_name": "piroxicam",
+      "drug_class": "nsaid",
+      "strengths": [
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Ketorol",
+      "generic_name": "ketorolac",
+      "drug_class": "nsaid",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Indocap",
+      "generic_name": "indomethacin",
+      "drug_class": "nsaid",
+      "strengths": [
+        "25 mg"
+      ]
+    },
+    {
+      "brand_name": "Meftal",
+      "generic_name": "mefenamic acid",
+      "drug_class": "nsaid",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Hifenac",
+      "generic_name": "aceclofenac",
+      "drug_class": "nsaid",
+      "strengths": [
+        "100 mg"
+      ]
+    },
+    {
+      "brand_name": "Arcoxia",
+      "generic_name": "etoricoxib",
+      "drug_class": "nsaid",
+      "strengths": [
+        "60 mg",
+        "90 mg",
+        "120 mg"
+      ]
+    },
+    {
+      "brand_name": "Celebrex",
+      "generic_name": "celecoxib",
+      "drug_class": "nsaid",
+      "strengths": [
+        "100 mg",
+        "200 mg"
+      ]
+    },
+    {
+      "brand_name": "Amlopress",
+      "generic_name": "amlodipine",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Norvasc",
+      "generic_name": "amlodipine",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "5 mg"
+      ]
+    },
+    {
+      "brand_name": "Telma",
+      "generic_name": "telmisartan",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "20 mg",
+        "40 mg",
+        "80 mg"
+      ]
+    },
+    {
+      "brand_name": "Telma-H",
+      "generic_name": "telmisartan + hydrochlorothiazide",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "40+12.5 mg"
+      ]
+    },
+    {
+      "brand_name": "Losar",
+      "generic_name": "losartan",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "25 mg",
+        "50 mg"
+      ]
+    },
+    {
+      "brand_name": "Cozaar",
+      "generic_name": "losartan",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "50 mg"
+      ]
+    },
+    {
+      "brand_name": "Losar-H",
+      "generic_name": "losartan + hydrochlorothiazide",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "50+12.5 mg"
+      ]
+    },
+    {
+      "brand_name": "Cardace",
+      "generic_name": "ramipril",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "2.5 mg",
+        "5 mg"
+      ]
+    },
+    {
+      "brand_name": "Envas",
+      "generic_name": "enalapril",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Betaloc",
+      "generic_name": "metoprolol",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "25 mg",
+        "50 mg"
+      ]
+    },
+    {
+      "brand_name": "Aten",
+      "generic_name": "atenolol",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "25 mg",
+        "50 mg"
+      ]
+    },
+    {
+      "brand_name": "Valent",
+      "generic_name": "valsartan",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "80 mg",
+        "160 mg"
+      ]
+    },
+    {
+      "brand_name": "Olmezest",
+      "generic_name": "olmesartan",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "20 mg",
+        "40 mg"
+      ]
+    },
+    {
+      "brand_name": "Amlopres-AT",
+      "generic_name": "amlodipine + atenolol",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "5+50 mg"
+      ]
+    },
+    {
+      "brand_name": "Arkamin",
+      "generic_name": "clonidine",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "100 mcg"
+      ]
+    },
+    {
+      "brand_name": "Prazopress",
+      "generic_name": "prazosin",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "1 mg",
+        "2.5 mg"
+      ]
+    },
+    {
+      "brand_name": "Depin",
+      "generic_name": "nifedipine",
+      "drug_class": "antihypertensive",
+      "strengths": [
+        "10 mg",
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Glycomet",
+      "generic_name": "metformin",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "500 mg",
+        "850 mg",
+        "1000 mg"
+      ]
+    },
+    {
+      "brand_name": "Glucophage",
+      "generic_name": "metformin",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Amaryl",
+      "generic_name": "glimepiride",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "1 mg",
+        "2 mg"
+      ]
+    },
+    {
+      "brand_name": "Glynase",
+      "generic_name": "glipizide",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "5 mg"
+      ]
+    },
+    {
+      "brand_name": "Januvia",
+      "generic_name": "sitagliptin",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "50 mg",
+        "100 mg"
+      ]
+    },
+    {
+      "brand_name": "Volix",
+      "generic_name": "voglibose",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "0.2 mg",
+        "0.3 mg"
+      ]
+    },
+    {
+      "brand_name": "Pioz",
+      "generic_name": "pioglitazone",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "15 mg",
+        "30 mg"
+      ]
+    },
+    {
+      "brand_name": "Glycomet-GP",
+      "generic_name": "metformin + glimepiride",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "500+1 mg",
+        "500+2 mg"
+      ]
+    },
+    {
+      "brand_name": "Jardiance",
+      "generic_name": "empagliflozin",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "10 mg",
+        "25 mg"
+      ]
+    },
+    {
+      "brand_name": "Forxiga",
+      "generic_name": "dapagliflozin",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Lantus",
+      "generic_name": "insulin glargine",
+      "drug_class": "antidiabetic",
+      "strengths": [
+        "100 IU/mL"
+      ]
+    },
+    {
+      "brand_name": "Atorva",
+      "generic_name": "atorvastatin",
+      "drug_class": "statin",
+      "strengths": [
+        "10 mg",
+        "20 mg",
+        "40 mg"
+      ]
+    },
+    {
+      "brand_name": "Lipitor",
+      "generic_name": "atorvastatin",
+      "drug_class": "statin",
+      "strengths": [
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Rozavel",
+      "generic_name": "rosuvastatin",
+      "drug_class": "statin",
+      "strengths": [
+        "5 mg",
+        "10 mg",
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Crestor",
+      "generic_name": "rosuvastatin",
+      "drug_class": "statin",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Simvas",
+      "generic_name": "simvastatin",
+      "drug_class": "statin",
+      "strengths": [
+        "20 mg",
+        "40 mg"
+      ]
+    },
+    {
+      "brand_name": "Pitava",
+      "generic_name": "pitavastatin",
+      "drug_class": "statin",
+      "strengths": [
+        "2 mg",
+        "4 mg"
+      ]
+    },
+    {
+      "brand_name": "Ecosprin",
+      "generic_name": "aspirin",
+      "drug_class": "antiplatelet",
+      "strengths": [
+        "75 mg",
+        "150 mg"
+      ]
+    },
+    {
+      "brand_name": "Disprin",
+      "generic_name": "aspirin",
+      "drug_class": "antiplatelet",
+      "strengths": [
+        "350 mg"
+      ]
+    },
+    {
+      "brand_name": "Clopilet",
+      "generic_name": "clopidogrel",
+      "drug_class": "antiplatelet",
+      "strengths": [
+        "75 mg"
+      ]
+    },
+    {
+      "brand_name": "Plavix",
+      "generic_name": "clopidogrel",
+      "drug_class": "antiplatelet",
+      "strengths": [
+        "75 mg"
+      ]
+    },
+    {
+      "brand_name": "Brilinta",
+      "generic_name": "ticagrelor",
+      "drug_class": "antiplatelet",
+      "strengths": [
+        "90 mg"
+      ]
+    },
+    {
+      "brand_name": "Effient",
+      "generic_name": "prasugrel",
+      "drug_class": "antiplatelet",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Deplatt-A",
+      "generic_name": "aspirin + clopidogrel",
+      "drug_class": "antiplatelet",
+      "strengths": [
+        "75+75 mg",
+        "150+75 mg"
+      ]
+    },
+    {
+      "brand_name": "Warf",
+      "generic_name": "warfarin",
+      "drug_class": "anticoagulant",
+      "strengths": [
+        "1 mg",
+        "2 mg",
+        "5 mg"
+      ]
+    },
+    {
+      "brand_name": "Clexane",
+      "generic_name": "enoxaparin",
+      "drug_class": "anticoagulant",
+      "strengths": [
+        "40 mg",
+        "60 mg"
+      ]
+    },
+    {
+      "brand_name": "Xarelto",
+      "generic_name": "rivaroxaban",
+      "drug_class": "anticoagulant",
+      "strengths": [
+        "10 mg",
+        "15 mg",
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Eliquis",
+      "generic_name": "apixaban",
+      "drug_class": "anticoagulant",
+      "strengths": [
+        "2.5 mg",
+        "5 mg"
+      ]
+    },
+    {
+      "brand_name": "Pradaxa",
+      "generic_name": "dabigatran",
+      "drug_class": "anticoagulant",
+      "strengths": [
+        "110 mg",
+        "150 mg"
+      ]
+    },
+    {
+      "brand_name": "Pan",
+      "generic_name": "pantoprazole",
+      "drug_class": "ppi",
+      "strengths": [
+        "20 mg",
+        "40 mg"
+      ]
+    },
+    {
+      "brand_name": "Pantocid",
+      "generic_name": "pantoprazole",
+      "drug_class": "ppi",
+      "strengths": [
+        "40 mg"
+      ]
+    },
+    {
+      "brand_name": "Omez",
+      "generic_name": "omeprazole",
+      "drug_class": "ppi",
+      "strengths": [
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Rablet",
+      "generic_name": "rabeprazole",
+      "drug_class": "ppi",
+      "strengths": [
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Neksium",
+      "generic_name": "esomeprazole",
+      "drug_class": "ppi",
+      "strengths": [
+        "20 mg",
+        "40 mg"
+      ]
+    },
+    {
+      "brand_name": "Lanzol",
+      "generic_name": "lansoprazole",
+      "drug_class": "ppi",
+      "strengths": [
+        "15 mg",
+        "30 mg"
+      ]
+    },
+    {
+      "brand_name": "Rantac",
+      "generic_name": "ranitidine",
+      "drug_class": "antacid",
+      "strengths": [
+        "150 mg"
+      ]
+    },
+    {
+      "brand_name": "Famocid",
+      "generic_name": "famotidine",
+      "drug_class": "antacid",
+      "strengths": [
+        "20 mg",
+        "40 mg"
+      ]
+    },
+    {
+      "brand_name": "Sucrafil",
+      "generic_name": "sucralfate",
+      "drug_class": "antacid",
+      "strengths": [
+        "1g"
+      ]
+    },
+    {
+      "brand_name": "Digene",
+      "generic_name": "aluminium hydroxide + magnesium hydroxide",
+      "drug_class": "antacid",
+      "strengths": [
+        "10 mL"
+      ]
+    },
+    {
+      "brand_name": "Emeset",
+      "generic_name": "ondansetron",
+      "drug_class": "antiemetic",
+      "strengths": [
+        "4 mg",
+        "8 mg"
+      ]
+    },
+    {
+      "brand_name": "Domstal",
+      "generic_name": "domperidone",
+      "drug_class": "antiemetic",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Perinorm",
+      "generic_name": "metoclopramide",
+      "drug_class": "antiemetic",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Phenergan",
+      "generic_name": "promethazine",
+      "drug_class": "antiemetic",
+      "strengths": [
+        "10 mg",
+        "25 mg"
+      ]
+    },
+    {
+      "brand_name": "Asthalin",
+      "generic_name": "salbutamol",
+      "drug_class": "bronchodilator",
+      "strengths": [
+        "2 mg",
+        "4 mg",
+        "100 mcg inhaler"
+      ]
+    },
+    {
+      "brand_name": "Ipravent",
+      "generic_name": "ipratropium",
+      "drug_class": "bronchodilator",
+      "strengths": [
+        "20 mcg inhaler"
+      ]
+    },
+    {
+      "brand_name": "Deriphyllin",
+      "generic_name": "theophylline",
+      "drug_class": "bronchodilator",
+      "strengths": [
+        "200 mg",
+        "300 mg"
+      ]
+    },
+    {
+      "brand_name": "Foracort",
+      "generic_name": "formoterol + budesonide",
+      "drug_class": "bronchodilator",
+      "strengths": [
+        "6+200 mcg"
+      ]
+    },
+    {
+      "brand_name": "Tiova",
+      "generic_name": "tiotropium",
+      "drug_class": "bronchodilator",
+      "strengths": [
+        "18 mcg"
+      ]
+    },
+    {
+      "brand_name": "Montair",
+      "generic_name": "montelukast",
+      "drug_class": "bronchodilator",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Budecort",
+      "generic_name": "budesonide",
+      "drug_class": "corticosteroid",
+      "strengths": [
+        "0.5 mg/mL",
+        "1 mg/mL"
+      ]
+    },
+    {
+      "brand_name": "Flohale",
+      "generic_name": "fluticasone",
+      "drug_class": "corticosteroid",
+      "strengths": [
+        "125 mcg",
+        "250 mcg"
+      ]
+    },
+    {
+      "brand_name": "Omnacortil",
+      "generic_name": "prednisolone",
+      "drug_class": "corticosteroid",
+      "strengths": [
+        "5 mg",
+        "10 mg",
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Decdan",
+      "generic_name": "dexamethasone",
+      "drug_class": "corticosteroid",
+      "strengths": [
+        "0.5 mg",
+        "4 mg"
+      ]
+    },
+    {
+      "brand_name": "Solu-Medrol",
+      "generic_name": "methylprednisolone",
+      "drug_class": "corticosteroid",
+      "strengths": [
+        "125 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Efcorlin",
+      "generic_name": "hydrocortisone",
+      "drug_class": "corticosteroid",
+      "strengths": [
+        "100 mg"
+      ]
+    },
+    {
+      "brand_name": "Forcan",
+      "generic_name": "fluconazole",
+      "drug_class": "antifungal",
+      "strengths": [
+        "150 mg",
+        "200 mg"
+      ]
+    },
+    {
+      "brand_name": "Canditral",
+      "generic_name": "itraconazole",
+      "drug_class": "antifungal",
+      "strengths": [
+        "100 mg",
+        "200 mg"
+      ]
+    },
+    {
+      "brand_name": "Vfend",
+      "generic_name": "voriconazole",
+      "drug_class": "antifungal",
+      "strengths": [
+        "200 mg"
+      ]
+    },
+    {
+      "brand_name": "Fungizone",
+      "generic_name": "amphotericin b",
+      "drug_class": "antifungal",
+      "strengths": [
+        "50 mg"
+      ]
+    },
+    {
+      "brand_name": "Zovirax",
+      "generic_name": "acyclovir",
+      "drug_class": "antiviral",
+      "strengths": [
+        "200 mg",
+        "400 mg",
+        "800 mg"
+      ]
+    },
+    {
+      "brand_name": "Valcivir",
+      "generic_name": "valacyclovir",
+      "drug_class": "antiviral",
+      "strengths": [
+        "500 mg",
+        "1000 mg"
+      ]
+    },
+    {
+      "brand_name": "Tamiflu",
+      "generic_name": "oseltamivir",
+      "drug_class": "antiviral",
+      "strengths": [
+        "75 mg"
+      ]
+    },
+    {
+      "brand_name": "Alerid",
+      "generic_name": "cetirizine",
+      "drug_class": "antihistamine",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Xyzal",
+      "generic_name": "levocetirizine",
+      "drug_class": "antihistamine",
+      "strengths": [
+        "5 mg"
+      ]
+    },
+    {
+      "brand_name": "Allegra",
+      "generic_name": "fexofenadine",
+      "drug_class": "antihistamine",
+      "strengths": [
+        "120 mg",
+        "180 mg"
+      ]
+    },
+    {
+      "brand_name": "Avil",
+      "generic_name": "chlorpheniramine",
+      "drug_class": "antihistamine",
+      "strengths": [
+        "4 mg"
+      ]
+    },
+    {
+      "brand_name": "Claritin",
+      "generic_name": "loratadine",
+      "drug_class": "antihistamine",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Atarax",
+      "generic_name": "hydroxyzine",
+      "drug_class": "antihistamine",
+      "strengths": [
+        "10 mg",
+        "25 mg"
+      ]
+    },
+    {
+      "brand_name": "Zoloft",
+      "generic_name": "sertraline",
+      "drug_class": "antidepressant",
+      "strengths": [
+        "50 mg",
+        "100 mg"
+      ]
+    },
+    {
+      "brand_name": "Fludac",
+      "generic_name": "fluoxetine",
+      "drug_class": "antidepressant",
+      "strengths": [
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Nexito",
+      "generic_name": "escitalopram",
+      "drug_class": "antidepressant",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Tryptomer",
+      "generic_name": "amitriptyline",
+      "drug_class": "antidepressant",
+      "strengths": [
+        "10 mg",
+        "25 mg"
+      ]
+    },
+    {
+      "brand_name": "Venlor",
+      "generic_name": "venlafaxine",
+      "drug_class": "antidepressant",
+      "strengths": [
+        "37.5 mg",
+        "75 mg"
+      ]
+    },
+    {
+      "brand_name": "Cymbalta",
+      "generic_name": "duloxetine",
+      "drug_class": "antidepressant",
+      "strengths": [
+        "20 mg",
+        "30 mg",
+        "60 mg"
+      ]
+    },
+    {
+      "brand_name": "Levipil",
+      "generic_name": "levetiracetam",
+      "drug_class": "antiepileptic",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Encorate",
+      "generic_name": "valproate sodium",
+      "drug_class": "antiepileptic",
+      "strengths": [
+        "200 mg",
+        "500 mg"
+      ]
+    },
+    {
+      "brand_name": "Tegretol",
+      "generic_name": "carbamazepine",
+      "drug_class": "antiepileptic",
+      "strengths": [
+        "200 mg"
+      ]
+    },
+    {
+      "brand_name": "Eptoin",
+      "generic_name": "phenytoin",
+      "drug_class": "antiepileptic",
+      "strengths": [
+        "100 mg",
+        "300 mg"
+      ]
+    },
+    {
+      "brand_name": "Gabapin",
+      "generic_name": "gabapentin",
+      "drug_class": "antiepileptic",
+      "strengths": [
+        "100 mg",
+        "300 mg"
+      ]
+    },
+    {
+      "brand_name": "Pregabalin-NT",
+      "generic_name": "pregabalin",
+      "drug_class": "antiepileptic",
+      "strengths": [
+        "75 mg",
+        "150 mg"
+      ]
+    },
+    {
+      "brand_name": "Lamictal",
+      "generic_name": "lamotrigine",
+      "drug_class": "antiepileptic",
+      "strengths": [
+        "25 mg",
+        "50 mg",
+        "100 mg"
+      ]
+    },
+    {
+      "brand_name": "Dopmin",
+      "generic_name": "dopamine",
+      "drug_class": "vasopressor",
+      "strengths": [
+        "200 mg/5mL"
+      ]
+    },
+    {
+      "brand_name": "Dobutrex",
+      "generic_name": "dobutamine",
+      "drug_class": "vasopressor",
+      "strengths": [
+        "250 mg/20mL"
+      ]
+    },
+    {
+      "brand_name": "Frisium",
+      "generic_name": "clobazam",
+      "drug_class": "sedative",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Calmpose",
+      "generic_name": "diazepam",
+      "drug_class": "sedative",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Ativan",
+      "generic_name": "lorazepam",
+      "drug_class": "sedative",
+      "strengths": [
+        "1 mg",
+        "2 mg"
+      ]
+    },
+    {
+      "brand_name": "Alprax",
+      "generic_name": "alprazolam",
+      "drug_class": "sedative",
+      "strengths": [
+        "0.25 mg",
+        "0.5 mg"
+      ]
+    },
+    {
+      "brand_name": "Stilnoct",
+      "generic_name": "zolpidem",
+      "drug_class": "sedative",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Morphine Sulfate",
+      "generic_name": "morphine",
+      "drug_class": "controlled",
+      "strengths": [
+        "10 mg",
+        "15 mg",
+        "30 mg"
+      ]
+    },
+    {
+      "brand_name": "Durogesic",
+      "generic_name": "fentanyl",
+      "drug_class": "controlled",
+      "strengths": [
+        "25 mcg/hr patch",
+        "50 mcg/hr patch"
+      ]
+    },
+    {
+      "brand_name": "OxyContin",
+      "generic_name": "oxycodone",
+      "drug_class": "controlled",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Codeine Phosphate",
+      "generic_name": "codeine",
+      "drug_class": "controlled",
+      "strengths": [
+        "15 mg",
+        "30 mg"
+      ]
+    },
+    {
+      "brand_name": "Buprigesic",
+      "generic_name": "buprenorphine",
+      "drug_class": "controlled",
+      "strengths": [
+        "0.3 mg"
+      ]
+    },
+    {
+      "brand_name": "Sirdalud",
+      "generic_name": "tizanidine",
+      "drug_class": "muscle_relaxant",
+      "strengths": [
+        "2 mg",
+        "4 mg"
+      ]
+    },
+    {
+      "brand_name": "Liofen",
+      "generic_name": "baclofen",
+      "drug_class": "muscle_relaxant",
+      "strengths": [
+        "10 mg",
+        "25 mg"
+      ]
+    },
+    {
+      "brand_name": "Myoril",
+      "generic_name": "thiocolchicoside",
+      "drug_class": "muscle_relaxant",
+      "strengths": [
+        "4 mg",
+        "8 mg"
+      ]
+    },
+    {
+      "brand_name": "Cyclopam",
+      "generic_name": "dicyclomine",
+      "drug_class": "antispasmodic",
+      "strengths": [
+        "10 mg",
+        "20 mg"
+      ]
+    },
+    {
+      "brand_name": "Buscopan",
+      "generic_name": "hyoscine",
+      "drug_class": "antispasmodic",
+      "strengths": [
+        "10 mg"
+      ]
+    },
+    {
+      "brand_name": "Mebex",
+      "generic_name": "mebeverine",
+      "drug_class": "antispasmodic",
+      "strengths": [
+        "135 mg"
+      ]
+    },
+    {
+      "brand_name": "Drotin",
+      "generic_name": "drotaverine",
+      "drug_class": "antispasmodic",
+      "strengths": [
+        "40 mg",
+        "80 mg"
+      ]
+    },
+    {
+      "brand_name": "Thyronorm",
+      "generic_name": "levothyroxine",
+      "drug_class": "thyroid",
+      "strengths": [
+        "25 mcg",
+        "50 mcg",
+        "75 mcg",
+        "100 mcg"
+      ]
+    },
+    {
+      "brand_name": "Eltroxin",
+      "generic_name": "levothyroxine",
+      "drug_class": "thyroid",
+      "strengths": [
+        "50 mcg",
+        "100 mcg"
+      ]
+    },
+    {
+      "brand_name": "Neo-Mercazole",
+      "generic_name": "carbimazole",
+      "drug_class": "thyroid",
+      "strengths": [
+        "5 mg"
+      ]
+    },
+    {
+      "brand_name": "Suminat",
+      "generic_name": "sumatriptan",
+      "drug_class": "migraine",
+      "strengths": [
+        "25 mg",
+        "50 mg"
+      ]
+    },
+    {
+      "brand_name": "Rizora",
+      "generic_name": "rizatriptan",
+      "drug_class": "migraine",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "generic_name": "Amoxicillin + Clavulanate",
+      "strength": "625 mg",
+      "stock": 0,
+      "alternatives": [
+        "amoxicillin + clavulanate 1g"
+      ],
+      "drug_class": "penicillin"
+    },
+    {
+      "generic_name": "Amoxicillin + Clavulanate",
+      "strength": "1g",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "penicillin"
+    },
+    {
+      "generic_name": "Amoxicillin",
+      "strength": "250 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "penicillin"
+    },
+    {
+      "generic_name": "Amoxicillin",
+      "strength": "500 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "penicillin"
+    },
+    {
+      "generic_name": "Ampicillin",
+      "strength": "500 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "penicillin"
+    },
+    {
+      "generic_name": "Piperacillin + Tazobactam",
+      "strength": "4.5g",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "penicillin"
+    },
+    {
+      "generic_name": "Flucloxacillin",
+      "strength": "500 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "penicillin"
+    },
+    {
+      "generic_name": "Cefixime",
+      "strength": "200 mg",
+      "stock": 0,
+      "alternatives": [
+        "cefpodoxime 200 mg"
+      ],
+      "drug_class": "cephalosporin"
+    },
+    {
+      "generic_name": "Ceftriaxone",
+      "strength": "1g",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "cephalosporin"
+    },
+    {
+      "generic_name": "Cephalexin",
+      "strength": "500 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "cephalosporin"
+    },
+    {
+      "generic_name": "Cefuroxime",
+      "strength": "250 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "cephalosporin"
+    },
+    {
+      "generic_name": "Cefuroxime",
+      "strength": "500 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "cephalosporin"
+    },
+    {
+      "generic_name": "Cefpodoxime",
+      "strength": "200 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "cephalosporin"
+    },
+    {
+      "generic_name": "Cefoperazone + Sulbactam",
+      "strength": "1.5g",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "cephalosporin"
+    },
+    {
+      "generic_name": "Azithromycin",
+      "strength": "250 mg",
+      "stock": 0,
+      "alternatives": [
+        "azithromycin 500 mg"
+      ],
+      "drug_class": "macrolide"
+    },
+    {
+      "generic_name": "Azithromycin",
+      "strength": "500 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "macrolide"
+    },
+    {
+      "generic_name": "Clarithromycin",
+      "strength": "250 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "macrolide"
+    },
+    {
+      "generic_name": "Clarithromycin",
+      "strength": "500 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "macrolide"
+    },
+    {
+      "generic_name": "Erythromycin",
+      "strength": "250 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "macrolide"
+    },
+    {
+      "generic_name": "Roxithromycin",
+      "strength": "150 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "macrolide"
+    },
+    {
+      "generic_name": "Ciprofloxacin",
+      "strength": "250 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "generic_name": "Ciprofloxacin",
+      "strength": "500 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "generic_name": "Levofloxacin",
+      "strength": "500 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "generic_name": "Levofloxacin",
+      "strength": "750 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "generic_name": "Moxifloxacin",
+      "strength": "400 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "generic_name": "Ofloxacin",
+      "strength": "200 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "generic_name": "Ofloxacin",
+      "strength": "400 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "generic_name": "Norfloxacin",
+      "strength": "400 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "generic_name": "Doxycycline",
+      "strength": "100 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "tetracycline"
+    },
+    {
+      "generic_name": "Minocycline",
+      "strength": "100 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "tetracycline"
+    },
+    {
+      "generic_name": "Gentamicin",
+      "strength": "80 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "aminoglycoside"
+    },
+    {
+      "generic_name": "Amikacin",
+      "strength": "500 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "aminoglycoside"
+    },
+    {
+      "generic_name": "Tobramycin",
+      "strength": "80 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "aminoglycoside"
+    },
+    {
+      "generic_name": "Sulfamethoxazole + Trimethoprim",
+      "strength": "400+80 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "sulfonamide"
+    },
+    {
+      "generic_name": "Sulfamethoxazole + Trimethoprim",
+      "strength": "800+160 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "sulfonamide"
+    },
+    {
+      "generic_name": "Sulfasalazine",
+      "strength": "500 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "sulfonamide"
+    },
+    {
+      "generic_name": "Paracetamol",
+      "strength": "500 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "analgesic"
+    },
+    {
+      "generic_name": "Paracetamol",
+      "strength": "650 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "analgesic"
+    },
+    {
+      "generic_name": "Tramadol + Paracetamol",
+      "strength": "37.5+325 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "analgesic"
+    },
+    {
+      "generic_name": "Tramadol",
+      "strength": "50 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "analgesic"
+    },
+    {
+      "generic_name": "Tramadol",
+      "strength": "100 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "analgesic"
+    },
+    {
+      "generic_name": "Ibuprofen + Paracetamol",
+      "strength": "400+325 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Ibuprofen",
+      "strength": "400 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Ibuprofen",
+      "strength": "600 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Diclofenac",
+      "strength": "50 mg",
+      "stock": 0,
+      "alternatives": [
+        "aceclofenac 100 mg"
+      ],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Diclofenac",
+      "strength": "75 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Naproxen",
+      "strength": "250 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Naproxen",
+      "strength": "500 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Piroxicam",
+      "strength": "20 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Ketorolac",
+      "strength": "10 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Indomethacin",
+      "strength": "25 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Mefenamic Acid",
+      "strength": "250 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Mefenamic Acid",
+      "strength": "500 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Aceclofenac",
+      "strength": "100 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Etoricoxib",
+      "strength": "60 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Etoricoxib",
+      "strength": "90 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Etoricoxib",
+      "strength": "120 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Celecoxib",
+      "strength": "100 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Celecoxib",
+      "strength": "200 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "nsaid"
+    },
+    {
+      "generic_name": "Amlodipine",
+      "strength": "5 mg",
+      "stock": 0,
+      "alternatives": [
+        "amlodipine 10 mg"
+      ],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Amlodipine",
+      "strength": "10 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Telmisartan",
+      "strength": "20 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Telmisartan",
+      "strength": "40 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Telmisartan",
+      "strength": "80 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Telmisartan + Hydrochlorothiazide",
+      "strength": "40+12.5 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Losartan",
+      "strength": "25 mg",
+      "stock": 0,
+      "alternatives": [
+        "losartan 50 mg"
+      ],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Losartan",
+      "strength": "50 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Losartan + Hydrochlorothiazide",
+      "strength": "50+12.5 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Ramipril",
+      "strength": "2.5 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Ramipril",
+      "strength": "5 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Enalapril",
+      "strength": "5 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Enalapril",
+      "strength": "10 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Metoprolol",
+      "strength": "25 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Metoprolol",
+      "strength": "50 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Atenolol",
+      "strength": "25 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Atenolol",
+      "strength": "50 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Valsartan",
+      "strength": "80 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Valsartan",
+      "strength": "160 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Olmesartan",
+      "strength": "20 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Olmesartan",
+      "strength": "40 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Amlodipine + Atenolol",
+      "strength": "5+50 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Clonidine",
+      "strength": "100 mcg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Prazosin",
+      "strength": "1 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Prazosin",
+      "strength": "2.5 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Nifedipine",
+      "strength": "10 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Nifedipine",
+      "strength": "20 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antihypertensive"
+    },
+    {
+      "generic_name": "Metformin",
+      "strength": "500 mg",
+      "stock": 0,
+      "alternatives": [
+        "metformin 850 mg"
+      ],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Metformin",
+      "strength": "850 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Metformin",
+      "strength": "1000 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Glimepiride",
+      "strength": "1 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Glimepiride",
+      "strength": "2 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Glipizide",
+      "strength": "5 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Sitagliptin",
+      "strength": "50 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Sitagliptin",
+      "strength": "100 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Voglibose",
+      "strength": "0.2 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Voglibose",
+      "strength": "0.3 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Pioglitazone",
+      "strength": "15 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Pioglitazone",
+      "strength": "30 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Metformin + Glimepiride",
+      "strength": "500+1 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Metformin + Glimepiride",
+      "strength": "500+2 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Empagliflozin",
+      "strength": "10 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Empagliflozin",
+      "strength": "25 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Dapagliflozin",
+      "strength": "10 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Insulin Glargine",
+      "strength": "100 IU/mL",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antidiabetic"
+    },
+    {
+      "generic_name": "Atorvastatin",
+      "strength": "10 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Atorvastatin",
+      "strength": "20 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Atorvastatin",
+      "strength": "40 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Rosuvastatin",
+      "strength": "5 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Rosuvastatin",
+      "strength": "10 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Rosuvastatin",
+      "strength": "20 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Simvastatin",
+      "strength": "20 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Simvastatin",
+      "strength": "40 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Pitavastatin",
+      "strength": "2 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Pitavastatin",
+      "strength": "4 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "statin"
+    },
+    {
+      "generic_name": "Aspirin",
+      "strength": "75 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antiplatelet"
+    },
+    {
+      "generic_name": "Aspirin",
+      "strength": "150 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antiplatelet"
+    },
+    {
+      "generic_name": "Aspirin",
+      "strength": "350 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antiplatelet"
+    },
+    {
+      "generic_name": "Clopidogrel",
+      "strength": "75 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antiplatelet"
+    },
+    {
+      "generic_name": "Ticagrelor",
+      "strength": "90 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antiplatelet"
+    },
+    {
+      "generic_name": "Prasugrel",
+      "strength": "10 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antiplatelet"
+    },
+    {
+      "generic_name": "Aspirin + Clopidogrel",
+      "strength": "75+75 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antiplatelet"
+    },
+    {
+      "generic_name": "Aspirin + Clopidogrel",
+      "strength": "150+75 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "antiplatelet"
+    },
+    {
+      "generic_name": "Warfarin",
+      "strength": "1 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Warfarin",
+      "strength": "2 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Warfarin",
+      "strength": "5 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Enoxaparin",
+      "strength": "40 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Enoxaparin",
+      "strength": "60 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Rivaroxaban",
+      "strength": "10 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Rivaroxaban",
+      "strength": "15 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Rivaroxaban",
+      "strength": "20 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Apixaban",
+      "strength": "2.5 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Apixaban",
+      "strength": "5 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Dabigatran",
+      "strength": "110 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Dabigatran",
+      "strength": "150 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "anticoagulant"
+    },
+    {
+      "generic_name": "Pantoprazole",
+      "strength": "20 mg",
+      "stock": 0,
+      "alternatives": [
+        "pantoprazole 40 mg"
+      ],
+      "drug_class": "ppi"
+    },
+    {
+      "generic_name": "Pantoprazole",
+      "strength": "40 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "ppi"
+    },
+    {
+      "generic_name": "Omeprazole",
+      "strength": "20 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "ppi"
+    },
+    {
+      "generic_name": "Rabeprazole",
+      "strength": "20 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "ppi"
+    },
+    {
+      "generic_name": "Esomeprazole",
+      "strength": "20 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "ppi"
+    },
+    {
+      "generic_name": "Esomeprazole",
+      "strength": "40 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "ppi"
+    },
+    {
+      "generic_name": "Lansoprazole",
+      "strength": "15 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "ppi"
+    },
+    {
+      "generic_name": "Lansoprazole",
+      "strength": "30 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "ppi"
+    },
+    {
+      "generic_name": "Ranitidine",
+      "strength": "150 mg",
+      "stock": 0,
+      "alternatives": [
+        "famotidine 20 mg"
+      ],
+      "drug_class": "antacid"
+    },
+    {
+      "generic_name": "Famotidine",
+      "strength": "20 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antacid"
+    },
+    {
+      "generic_name": "Famotidine",
+      "strength": "40 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antacid"
+    },
+    {
+      "generic_name": "Sucralfate",
+      "strength": "1g",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antacid"
+    },
+    {
+      "generic_name": "Aluminium Hydroxide + Magnesium Hydroxide",
+      "strength": "10 mL",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antacid"
+    },
+    {
+      "generic_name": "Ondansetron",
+      "strength": "4 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antiemetic"
+    },
+    {
+      "generic_name": "Ondansetron",
+      "strength": "8 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antiemetic"
+    },
+    {
+      "generic_name": "Domperidone",
+      "strength": "10 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antiemetic"
+    },
+    {
+      "generic_name": "Metoclopramide",
+      "strength": "10 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antiemetic"
+    },
+    {
+      "generic_name": "Promethazine",
+      "strength": "10 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antiemetic"
+    },
+    {
+      "generic_name": "Promethazine",
+      "strength": "25 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antiemetic"
+    },
+    {
+      "generic_name": "Salbutamol",
+      "strength": "2 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "bronchodilator"
+    },
+    {
+      "generic_name": "Salbutamol",
+      "strength": "4 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "bronchodilator"
+    },
+    {
+      "generic_name": "Salbutamol",
+      "strength": "100 mcg inhaler",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "bronchodilator"
+    },
+    {
+      "generic_name": "Ipratropium",
+      "strength": "20 mcg inhaler",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "bronchodilator"
+    },
+    {
+      "generic_name": "Theophylline",
+      "strength": "200 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "bronchodilator"
+    },
+    {
+      "generic_name": "Theophylline",
+      "strength": "300 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "bronchodilator"
+    },
+    {
+      "generic_name": "Formoterol + Budesonide",
+      "strength": "6+200 mcg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "bronchodilator"
+    },
+    {
+      "generic_name": "Tiotropium",
+      "strength": "18 mcg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "bronchodilator"
+    },
+    {
+      "generic_name": "Montelukast",
+      "strength": "10 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "bronchodilator"
+    },
+    {
+      "generic_name": "Budesonide",
+      "strength": "0.5 mg/mL",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Budesonide",
+      "strength": "1 mg/mL",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Fluticasone",
+      "strength": "125 mcg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Fluticasone",
+      "strength": "250 mcg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Prednisolone",
+      "strength": "5 mg",
+      "stock": 0,
+      "alternatives": [
+        "prednisolone 10 mg"
+      ],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Prednisolone",
+      "strength": "10 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Prednisolone",
+      "strength": "20 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Dexamethasone",
+      "strength": "0.5 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Dexamethasone",
+      "strength": "4 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Methylprednisolone",
+      "strength": "125 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Methylprednisolone",
+      "strength": "500 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Hydrocortisone",
+      "strength": "100 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "corticosteroid"
+    },
+    {
+      "generic_name": "Fluconazole",
+      "strength": "150 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antifungal"
+    },
+    {
+      "generic_name": "Fluconazole",
+      "strength": "200 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antifungal"
+    },
+    {
+      "generic_name": "Itraconazole",
+      "strength": "100 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "antifungal"
+    },
+    {
+      "generic_name": "Itraconazole",
+      "strength": "200 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antifungal"
+    },
+    {
+      "generic_name": "Voriconazole",
+      "strength": "200 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antifungal"
+    },
+    {
+      "generic_name": "Amphotericin B",
+      "strength": "50 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antifungal"
+    },
+    {
+      "generic_name": "Acyclovir",
+      "strength": "200 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antiviral"
+    },
+    {
+      "generic_name": "Acyclovir",
+      "strength": "400 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antiviral"
+    },
+    {
+      "generic_name": "Acyclovir",
+      "strength": "800 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antiviral"
+    },
+    {
+      "generic_name": "Valacyclovir",
+      "strength": "500 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antiviral"
+    },
+    {
+      "generic_name": "Valacyclovir",
+      "strength": "1000 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antiviral"
+    },
+    {
+      "generic_name": "Oseltamivir",
+      "strength": "75 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antiviral"
+    },
+    {
+      "generic_name": "Cetirizine",
+      "strength": "10 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antihistamine"
+    },
+    {
+      "generic_name": "Levocetirizine",
+      "strength": "5 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antihistamine"
+    },
+    {
+      "generic_name": "Fexofenadine",
+      "strength": "120 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antihistamine"
+    },
+    {
+      "generic_name": "Fexofenadine",
+      "strength": "180 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antihistamine"
+    },
+    {
+      "generic_name": "Chlorpheniramine",
+      "strength": "4 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antihistamine"
+    },
+    {
+      "generic_name": "Loratadine",
+      "strength": "10 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antihistamine"
+    },
+    {
+      "generic_name": "Hydroxyzine",
+      "strength": "10 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antihistamine"
+    },
+    {
+      "generic_name": "Hydroxyzine",
+      "strength": "25 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antihistamine"
+    },
+    {
+      "generic_name": "Sertraline",
+      "strength": "50 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Sertraline",
+      "strength": "100 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Fluoxetine",
+      "strength": "20 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Escitalopram",
+      "strength": "5 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Escitalopram",
+      "strength": "10 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Amitriptyline",
+      "strength": "10 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Amitriptyline",
+      "strength": "25 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Venlafaxine",
+      "strength": "37.5 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Venlafaxine",
+      "strength": "75 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Duloxetine",
+      "strength": "20 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Duloxetine",
+      "strength": "30 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Duloxetine",
+      "strength": "60 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antidepressant"
+    },
+    {
+      "generic_name": "Levetiracetam",
+      "strength": "250 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Levetiracetam",
+      "strength": "500 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Valproate Sodium",
+      "strength": "200 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Valproate Sodium",
+      "strength": "500 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Carbamazepine",
+      "strength": "200 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Phenytoin",
+      "strength": "100 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Phenytoin",
+      "strength": "300 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Gabapentin",
+      "strength": "100 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Gabapentin",
+      "strength": "300 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Pregabalin",
+      "strength": "75 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Pregabalin",
+      "strength": "150 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Lamotrigine",
+      "strength": "25 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Lamotrigine",
+      "strength": "50 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Lamotrigine",
+      "strength": "100 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "antiepileptic"
+    },
+    {
+      "generic_name": "Dopamine",
+      "strength": "200 mg/5mL",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "vasopressor"
+    },
+    {
+      "generic_name": "Dobutamine",
+      "strength": "250 mg/20mL",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "vasopressor"
+    },
+    {
+      "generic_name": "Clobazam",
+      "strength": "5 mg",
+      "stock": 100,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Clobazam",
+      "strength": "10 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Diazepam",
+      "strength": "5 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Diazepam",
+      "strength": "10 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Lorazepam",
+      "strength": "1 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Lorazepam",
+      "strength": "2 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Alprazolam",
+      "strength": "0.25 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Alprazolam",
+      "strength": "0.5 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Zolpidem",
+      "strength": "5 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Zolpidem",
+      "strength": "10 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "sedative"
+    },
+    {
+      "generic_name": "Morphine",
+      "strength": "10 mg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Morphine",
+      "strength": "15 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Morphine",
+      "strength": "30 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Fentanyl",
+      "strength": "25 mcg/hr patch",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Fentanyl",
+      "strength": "50 mcg/hr patch",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Oxycodone",
+      "strength": "5 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Oxycodone",
+      "strength": "10 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Codeine",
+      "strength": "15 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Codeine",
+      "strength": "30 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Buprenorphine",
+      "strength": "0.3 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "controlled"
+    },
+    {
+      "generic_name": "Tizanidine",
+      "strength": "2 mg",
+      "stock": 20,
+      "alternatives": [],
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "generic_name": "Tizanidine",
+      "strength": "4 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "generic_name": "Baclofen",
+      "strength": "10 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "generic_name": "Baclofen",
+      "strength": "25 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "generic_name": "Thiocolchicoside",
+      "strength": "4 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "generic_name": "Thiocolchicoside",
+      "strength": "8 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "generic_name": "Dicyclomine",
+      "strength": "10 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "antispasmodic"
+    },
+    {
+      "generic_name": "Dicyclomine",
+      "strength": "20 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antispasmodic"
+    },
+    {
+      "generic_name": "Hyoscine",
+      "strength": "10 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antispasmodic"
+    },
+    {
+      "generic_name": "Mebeverine",
+      "strength": "135 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "antispasmodic"
+    },
+    {
+      "generic_name": "Drotaverine",
+      "strength": "40 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "antispasmodic"
+    },
+    {
+      "generic_name": "Drotaverine",
+      "strength": "80 mg",
+      "stock": 10,
+      "alternatives": [],
+      "drug_class": "antispasmodic"
+    },
+    {
+      "generic_name": "Levothyroxine",
+      "strength": "25 mcg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "thyroid"
+    },
+    {
+      "generic_name": "Levothyroxine",
+      "strength": "50 mcg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "thyroid"
+    },
+    {
+      "generic_name": "Levothyroxine",
+      "strength": "75 mcg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "thyroid"
+    },
+    {
+      "generic_name": "Levothyroxine",
+      "strength": "100 mcg",
+      "stock": 75,
+      "alternatives": [],
+      "drug_class": "thyroid"
+    },
+    {
+      "generic_name": "Carbimazole",
+      "strength": "5 mg",
+      "stock": 120,
+      "alternatives": [],
+      "drug_class": "thyroid"
+    },
+    {
+      "generic_name": "Sumatriptan",
+      "strength": "25 mg",
+      "stock": 200,
+      "alternatives": [],
+      "drug_class": "migraine"
+    },
+    {
+      "generic_name": "Sumatriptan",
+      "strength": "50 mg",
+      "stock": 150,
+      "alternatives": [],
+      "drug_class": "migraine"
+    },
+    {
+      "generic_name": "Rizatriptan",
+      "strength": "5 mg",
+      "stock": 30,
+      "alternatives": [],
+      "drug_class": "migraine"
+    },
+    {
+      "generic_name": "Rizatriptan",
+      "strength": "10 mg",
+      "stock": 50,
+      "alternatives": [],
+      "drug_class": "migraine"
+    }
+  ],
+  "rbac_permissions": [
+    {
+      "tool": "get_discharge_summary",
+      "server": "ehr_server",
+      "allowed_roles": [
+        "clinical",
+        "discharge"
+      ],
+      "denied_roles": [
+        "billing",
+        "pharmacy",
+        "admin"
+      ]
+    },
+    {
+      "tool": "get_medication_list",
+      "server": "ehr_server",
+      "allowed_roles": [
+        "clinical",
+        "discharge",
+        "pharmacy"
+      ],
+      "denied_roles": [
+        "billing",
+        "admin"
+      ]
+    },
+    {
+      "tool": "get_clinical_notes",
+      "server": "ehr_server",
+      "allowed_roles": [
+        "clinical"
+      ],
+      "denied_roles": [
+        "billing",
+        "pharmacy",
+        "discharge",
+        "admin"
+      ],
+      "sensitivity": "HIGH — Contains PHI. Only clinical role allowed."
+    },
+    {
+      "tool": "resolve_generic",
+      "server": "pharmacy_server",
+      "allowed_roles": [
+        "pharmacy",
+        "discharge"
+      ],
+      "denied_roles": [
+        "billing",
+        "clinical",
+        "admin"
+      ]
+    },
+    {
+      "tool": "check_stock",
+      "server": "pharmacy_server",
+      "allowed_roles": [
+        "pharmacy",
+        "discharge"
+      ],
+      "denied_roles": [
+        "billing",
+        "clinical",
+        "admin"
+      ]
+    },
+    {
+      "tool": "suggest_alternative",
+      "server": "pharmacy_server",
+      "allowed_roles": [
+        "pharmacy",
+        "discharge"
+      ],
+      "denied_roles": [
+        "billing",
+        "clinical",
+        "admin"
+      ]
+    },
+    {
+      "tool": "get_billing_code",
+      "server": "billing_server",
+      "allowed_roles": [
+        "billing",
+        "discharge"
+      ],
+      "denied_roles": [
+        "clinical",
+        "pharmacy",
+        "admin"
+      ]
+    },
+    {
+      "tool": "create_invoice",
+      "server": "billing_server",
+      "allowed_roles": [
+        "billing",
+        "discharge"
+      ],
+      "denied_roles": [
+        "clinical",
+        "pharmacy",
+        "admin"
+      ],
+      "phi_guard": "Rejects payloads containing 'diagnosis' or 'clinical' substrings."
+    },
+    {
+      "tool": "validate_invoice",
+      "server": "billing_server",
+      "allowed_roles": [
+        "billing",
+        "discharge"
+      ],
+      "denied_roles": [
+        "clinical",
+        "pharmacy",
+        "admin"
+      ]
+    },
+    {
+      "_test": "billing_reads_clinical_notes",
+      "role": "billing",
+      "tool": "get_clinical_notes",
+      "server": "ehr_server",
+      "expected": "access_denied",
+      "reason": "PHI boundary violation"
+    },
+    {
+      "_test": "pharmacy_reads_diagnosis",
+      "role": "pharmacy",
+      "tool": "get_discharge_summary",
+      "server": "ehr_server",
+      "expected": "access_denied",
+      "reason": "Role not permitted"
+    },
+    {
+      "_test": "clinical_creates_invoice",
+      "role": "clinical",
+      "tool": "create_invoice",
+      "server": "billing_server",
+      "expected": "access_denied",
+      "reason": "Separation of concerns"
+    },
+    {
+      "_test": "pharmacy_creates_invoice",
+      "role": "pharmacy",
+      "tool": "create_invoice",
+      "server": "billing_server",
+      "expected": "access_denied",
+      "reason": "Separation of concerns"
+    },
+    {
+      "_test": "billing_resolves_generic",
+      "role": "billing",
+      "tool": "resolve_generic",
+      "server": "pharmacy_server",
+      "expected": "access_denied",
+      "reason": "Billing has no pharmacy access"
+    },
+    {
+      "_test": "billing_checks_stock",
+      "role": "billing",
+      "tool": "check_stock",
+      "server": "pharmacy_server",
+      "expected": "access_denied",
+      "reason": "Billing has no pharmacy access"
+    },
+    {
+      "_test": "admin_reads_notes",
+      "role": "admin",
+      "tool": "get_clinical_notes",
+      "server": "ehr_server",
+      "expected": "access_denied",
+      "reason": "Admin role not implemented"
+    },
+    {
+      "_test": "admin_creates_invoice",
+      "role": "admin",
+      "tool": "create_invoice",
+      "server": "billing_server",
+      "expected": "access_denied",
+      "reason": "Admin role not implemented"
+    },
+    {
+      "_test": "discharge_reads_notes",
+      "role": "discharge",
+      "tool": "get_clinical_notes",
+      "server": "ehr_server",
+      "expected": "access_denied",
+      "reason": "Even discharge cannot read clinical notes"
+    },
+    {
+      "_test": "discharge_full_happy_path",
+      "role": "discharge",
+      "tools": [
+        "get_medication_list",
+        "resolve_generic",
+        "check_stock",
+        "suggest_alternative",
+        "create_invoice",
+        "validate_invoice"
+      ],
+      "expected": "all_allowed",
+      "reason": "Discharge role is the orchestrator"
+    },
+    {
+      "_test": "clinical_full_ehr_access",
+      "role": "clinical",
+      "tools": [
+        "get_discharge_summary",
+        "get_medication_list",
+        "get_clinical_notes"
+      ],
+      "expected": "all_allowed",
+      "reason": "Clinical has full EHR read access"
+    },
+    {
+      "_test": "billing_limited_access",
+      "role": "billing",
+      "tools": [
+        "get_billing_code",
+        "create_invoice",
+        "validate_invoice"
+      ],
+      "expected": "all_allowed",
+      "reason": "Billing can only use billing tools"
+    },
+    {
+      "_test": "pharmacy_limited_access",
+      "role": "pharmacy",
+      "tools": [
+        "resolve_generic",
+        "check_stock",
+        "suggest_alternative",
+        "get_medication_list"
+      ],
+      "expected": "all_allowed",
+      "reason": "Pharmacy can use pharmacy tools + read med list"
+    },
+    {
+      "_test": "phi_diagnosis_in_payload",
+      "tool": "create_invoice",
+      "payload_contains": "diagnosis",
+      "expected": "rejected",
+      "reason": "PHI leakage — diagnosis keyword detected"
+    },
+    {
+      "_test": "phi_clinical_in_payload",
+      "tool": "create_invoice",
+      "payload_contains": "clinical",
+      "expected": "rejected",
+      "reason": "PHI leakage — clinical keyword detected"
+    },
+    {
+      "_test": "phi_clinical_notes_in_item",
+      "tool": "create_invoice",
+      "payload_contains": "clinical_notes",
+      "expected": "rejected",
+      "reason": "PHI leakage — clinical_notes substring detected"
+    },
+    {
+      "_test": "phi_clean_payload",
+      "tool": "create_invoice",
+      "payload_contains": "item + quantity only",
+      "expected": "accepted",
+      "reason": "Clean payload — no PHI detected"
+    },
+    {
+      "_test": "controlled_substance_billing",
+      "tool": "create_invoice",
+      "constraint": "Billing must receive only item name and quantity for controlled substances",
+      "blocked_fields": [
+        "clinical_notes",
+        "diagnosis_summary",
+        "prescription_justification",
+        "dea_number",
+        "controlled_schedule"
+      ]
+    },
+    {
+      "_test": "controlled_substance_pharmacy",
+      "tool": "resolve_generic",
+      "constraint": "Pharmacy can resolve controlled substance brands to generics",
+      "expected": "allowed"
+    },
+    {
+      "_test": "role_escalation_attempt",
+      "role": "billing",
+      "attempts": "Pass context_role='clinical' to bypass RBAC",
+      "expected": "access_denied",
+      "reason": "RBAC is enforced at tool level, not just prompt level"
+    },
+    {
+      "_test": "empty_role",
+      "role": "",
+      "tool": "get_clinical_notes",
+      "expected": "access_denied",
+      "reason": "Empty role should be denied"
+    }
+  ],
+  "metadata": {
+    "total_brand_generic_mappings": 180,
+    "total_inventory_records": 263,
+    "total_rbac_policies": 30,
+    "out_of_stock_items": 10
+  }
+}

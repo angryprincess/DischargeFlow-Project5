@@ -1,0 +1,3589 @@
+{
+  "ehr_records": [
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #1",
+      "_test_type": "success",
+      "patient_id": "P-1001",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Hypertension management",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Warf",
+          "dose": "2 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Allegra",
+          "dose": "120 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Observation complete. No complications. Discharge with prescribed medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #2",
+      "_test_type": "success",
+      "patient_id": "P-1002",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Severe CAP with sepsis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Floxapen",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Mebex",
+          "dose": "135 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Respiratory distress resolved. Nebulization weaned. Inhalers prescribed."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #3",
+      "_test_type": "success",
+      "patient_id": "P-1003",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Viral upper respiratory infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Calmpose",
+          "dose": "5 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Seizure-free for 48 hours. Anti-epileptic levels therapeutic. Safe for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #4",
+      "_test_type": "success",
+      "patient_id": "P-1004",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Community acquired pneumonia",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Lanzol",
+          "dose": "15 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Patient responded well to treatment. Vitals stable. Discharge on oral medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #5",
+      "_test_type": "success",
+      "patient_id": "P-1005",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Tension headache",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Jardiance",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Atorva",
+          "dose": "20 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Observation complete. No complications. Discharge with prescribed medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #6",
+      "_test_type": "success",
+      "patient_id": "P-1006",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute viral fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Amoxil",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Azee",
+          "dose": "500 mg",
+          "frequency": "OD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Patient tolerated treatment well. No adverse reactions. Discharge advised."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #7",
+      "_test_type": "success",
+      "patient_id": "P-1007",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Community acquired pneumonia",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Dolo",
+          "dose": "650 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Cyclopam",
+          "dose": "10 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Blood sugar levels stabilized. Adjusted oral hypoglycemics for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #8",
+      "_test_type": "success",
+      "patient_id": "P-1008",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Tension headache",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Metacin",
+          "dose": "500 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Oflox",
+          "dose": "200 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Patient counseled on medication compliance. Return if symptoms recur."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #9",
+      "_test_type": "success",
+      "patient_id": "P-1009",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute myocardial infarction",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Naprosyn",
+          "dose": "250 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Ativan",
+          "dose": "1 mg",
+          "frequency": "OD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Infection markers improving. Culture sensitivity guided antibiotic change."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #10",
+      "_test_type": "success",
+      "patient_id": "P-1010",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-operative pain management",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Gabapin",
+          "dose": "100 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Rozavel",
+          "dose": "20 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Clopilet",
+          "dose": "75 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Post-operative recovery uneventful. Wound clean. Oral antibiotics and analgesics advised."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #11",
+      "_test_type": "success",
+      "patient_id": "P-1011",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Community acquired pneumonia",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Flohale",
+          "dose": "125 mcg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Stilnoct",
+          "dose": "10 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Fever resolved. CRP declining. Completing antibiotic course at home."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #12",
+      "_test_type": "success",
+      "patient_id": "P-1012",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Skin and soft tissue infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Fungizone",
+          "dose": "50 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Montair",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Tegretol",
+          "dose": "200 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Respiratory distress resolved. Nebulization weaned. Inhalers prescribed."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #13",
+      "_test_type": "success",
+      "patient_id": "P-1013",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute viral fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Domstal",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Cyclopam",
+          "dose": "20 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Blood sugar levels stabilized. Adjusted oral hypoglycemics for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #14",
+      "_test_type": "success",
+      "patient_id": "P-1014",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Mild dengue fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Budecort",
+          "dose": "0.5 mg/mL",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Post-operative recovery uneventful. Wound clean. Oral antibiotics and analgesics advised."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #15",
+      "_test_type": "success",
+      "patient_id": "P-1015",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Tension headache",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Rizora",
+          "dose": "10 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Vfend",
+          "dose": "200 mg",
+          "frequency": "OD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Pain managed with oral analgesics. Physiotherapy referral given."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #16",
+      "_test_type": "success",
+      "patient_id": "P-1016",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Severe CAP with sepsis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Atarax",
+          "dose": "10 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Flohale",
+          "dose": "250 mcg",
+          "frequency": "OD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Observation complete. No complications. Discharge with prescribed medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #17",
+      "_test_type": "success",
+      "patient_id": "P-1017",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute gastroenteritis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Neo-Mercazole",
+          "dose": "5 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Cymbalta",
+          "dose": "30 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Blood pressure controlled with current regimen. Continue medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #18",
+      "_test_type": "success",
+      "patient_id": "P-1018",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Hypertension management",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Avil",
+          "dose": "4 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Perinorm",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient tolerated treatment well. No adverse reactions. Discharge advised."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #19",
+      "_test_type": "success",
+      "patient_id": "P-1019",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Lower respiratory tract infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Voltaren",
+          "dose": "50 mg",
+          "frequency": "OD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Alerid",
+          "dose": "10 mg",
+          "frequency": "OD",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Montair",
+          "dose": "10 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Infection markers improving. Culture sensitivity guided antibiotic change."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #20",
+      "_test_type": "success",
+      "patient_id": "P-1020",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Observation only — chest pain ruled out",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Arkamin",
+          "dose": "100 mcg",
+          "frequency": "OD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Amlopress",
+          "dose": "10 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient responded well to treatment. Vitals stable. Discharge on oral medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #21",
+      "_test_type": "success",
+      "patient_id": "P-1021",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Migraine with aura",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Olmezest",
+          "dose": "20 mg",
+          "frequency": "OD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Observation complete. No complications. Discharge with prescribed medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #22",
+      "_test_type": "success",
+      "patient_id": "P-1022",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Bronchitis with fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Flohale",
+          "dose": "125 mcg",
+          "frequency": "OD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Arkamin",
+          "dose": "100 mcg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Lipitor",
+          "dose": "20 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Respiratory distress resolved. Nebulization weaned. Inhalers prescribed."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #23",
+      "_test_type": "success",
+      "patient_id": "P-1023",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Musculoskeletal pain",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Zithromax",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Seizure-free for 48 hours. Anti-epileptic levels therapeutic. Safe for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #24",
+      "_test_type": "success",
+      "patient_id": "P-1024",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Urinary tract infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "650 mg",
+          "frequency": "OD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Symptoms resolved after 5 days of IV therapy. Stepping down to oral."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #25",
+      "_test_type": "success",
+      "patient_id": "P-1025",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Migraine with aura",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Lamictal",
+          "dose": "100 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Fungizone",
+          "dose": "50 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Observation complete. No complications. Discharge with prescribed medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #26",
+      "_test_type": "success",
+      "patient_id": "P-1026",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Severe CAP with sepsis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Nexito",
+          "dose": "5 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Avelox",
+          "dose": "400 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Observation complete. No complications. Discharge with prescribed medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #27",
+      "_test_type": "success",
+      "patient_id": "P-1027",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute viral fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Telma-H",
+          "dose": "40+12.5 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Clinical improvement noted. Labs trending towards normal. Follow-up in 1 week."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #28",
+      "_test_type": "success",
+      "patient_id": "P-1028",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Community acquired pneumonia",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Domstal",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Norvasc",
+          "dose": "5 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Pain managed with oral analgesics. Physiotherapy referral given."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #29",
+      "_test_type": "success",
+      "patient_id": "P-1029",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Viral upper respiratory infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Thyronorm",
+          "dose": "50 mcg",
+          "frequency": "BD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Seizure-free for 48 hours. Anti-epileptic levels therapeutic. Safe for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #30",
+      "_test_type": "success",
+      "patient_id": "P-1030",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Diabetic foot ulcer with cellulitis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Doxy-1",
+          "dose": "100 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Aten",
+          "dose": "25 mg",
+          "frequency": "OD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Clinical improvement noted. Labs trending towards normal. Follow-up in 1 week."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #31",
+      "_test_type": "success",
+      "patient_id": "P-1031",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-operative pain management",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Nexito",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Ipravent",
+          "dose": "20 mcg inhaler",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Observation complete. No complications. Discharge with prescribed medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #32",
+      "_test_type": "success",
+      "patient_id": "P-1032",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Observation only — chest pain ruled out",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Omnacortil",
+          "dose": "10 mg",
+          "frequency": "OD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Monocef",
+          "dose": "1g",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Seizure-free for 48 hours. Anti-epileptic levels therapeutic. Safe for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #33",
+      "_test_type": "success",
+      "patient_id": "P-1033",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Tension headache",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Levoflox",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Seizure-free for 48 hours. Anti-epileptic levels therapeutic. Safe for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #34",
+      "_test_type": "success",
+      "patient_id": "P-1034",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Community acquired pneumonia",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Aten",
+          "dose": "25 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Vfend",
+          "dose": "200 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Levipil",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Symptoms resolved after 5 days of IV therapy. Stepping down to oral."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #35",
+      "_test_type": "success",
+      "patient_id": "P-1035",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Musculoskeletal pain",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Pan",
+          "dose": "40 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Moxicip",
+          "dose": "400 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Pain managed with oral analgesics. Physiotherapy referral given."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #36",
+      "_test_type": "success",
+      "patient_id": "P-1036",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Musculoskeletal pain",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Liofen",
+          "dose": "25 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Perinorm",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Post-operative recovery uneventful. Wound clean. Oral antibiotics and analgesics advised."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #37",
+      "_test_type": "success",
+      "patient_id": "P-1037",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Lower respiratory tract infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Canditral",
+          "dose": "100 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Asthalin",
+          "dose": "4 mg",
+          "frequency": "OD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Blood pressure controlled with current regimen. Continue medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #38",
+      "_test_type": "success",
+      "patient_id": "P-1038",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Hypertension management",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Decdan",
+          "dose": "4 mg",
+          "frequency": "OD",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Aten",
+          "dose": "25 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Cardiac enzymes normalized. Dual antiplatelet started. Cardiology follow-up."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #39",
+      "_test_type": "success",
+      "patient_id": "P-1039",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Musculoskeletal pain",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Floxapen",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Observation complete. No complications. Discharge with prescribed medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #40",
+      "_test_type": "success",
+      "patient_id": "P-1040",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Migraine with aura",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Claritin",
+          "dose": "10 mg",
+          "frequency": "OD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Respiratory distress resolved. Nebulization weaned. Inhalers prescribed."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #41",
+      "_test_type": "success",
+      "patient_id": "P-1041",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Lower respiratory tract infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Doxt",
+          "dose": "100 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Depin",
+          "dose": "20 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Blood sugar levels stabilized. Adjusted oral hypoglycemics for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #42",
+      "_test_type": "success",
+      "patient_id": "P-1042",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute gastroenteritis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Claritin",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Gabapin",
+          "dose": "100 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Infection markers improving. Culture sensitivity guided antibiotic change."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #43",
+      "_test_type": "success",
+      "patient_id": "P-1043",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Severe CAP with sepsis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Efcorlin",
+          "dose": "100 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Glucophage",
+          "dose": "500 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Blood pressure controlled with current regimen. Continue medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #44",
+      "_test_type": "success",
+      "patient_id": "P-1044",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Musculoskeletal pain",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Lantus",
+          "dose": "100 IU/mL",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Voveran",
+          "dose": "50 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient tolerated treatment well. No adverse reactions. Discharge advised."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #45",
+      "_test_type": "success",
+      "patient_id": "P-1045",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Severe CAP with sepsis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Pioz",
+          "dose": "30 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Fever resolved. CRP declining. Completing antibiotic course at home."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #46",
+      "_test_type": "success",
+      "patient_id": "P-1046",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Bronchitis with fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Cefix",
+          "dose": "200 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Forxiga",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Blood pressure controlled with current regimen. Continue medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #47",
+      "_test_type": "success",
+      "patient_id": "P-1047",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Viral upper respiratory infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Septran",
+          "dose": "400+80 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Symptoms resolved after 5 days of IV therapy. Stepping down to oral."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #48",
+      "_test_type": "success",
+      "patient_id": "P-1048",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Musculoskeletal pain",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Atorva",
+          "dose": "40 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Roxid",
+          "dose": "150 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Fever resolved. CRP declining. Completing antibiotic course at home."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #49",
+      "_test_type": "success",
+      "patient_id": "P-1049",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Mild dengue fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Budecort",
+          "dose": "0.5 mg/mL",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Telma",
+          "dose": "80 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Amlopress",
+          "dose": "5 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Infection markers improving. Culture sensitivity guided antibiotic change."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #50",
+      "_test_type": "success",
+      "patient_id": "P-1050",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Lower respiratory tract infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Metacin",
+          "dose": "500 mg",
+          "frequency": "OD",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Jardiance",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Post-operative recovery uneventful. Wound clean. Oral antibiotics and analgesics advised."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #51",
+      "_test_type": "success",
+      "patient_id": "P-1051",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Severe CAP with sepsis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Losar",
+          "dose": "50 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Infection markers improving. Culture sensitivity guided antibiotic change."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #52",
+      "_test_type": "success",
+      "patient_id": "P-1052",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Skin and soft tissue infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Contramal",
+          "dose": "50 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Seizure-free for 48 hours. Anti-epileptic levels therapeutic. Safe for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #53",
+      "_test_type": "success",
+      "patient_id": "P-1053",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute gastroenteritis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Levipil",
+          "dose": "250 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Cardace",
+          "dose": "5 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Patient responded well to treatment. Vitals stable. Discharge on oral medications."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #54",
+      "_test_type": "success",
+      "patient_id": "P-1054",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Viral upper respiratory infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Mebex",
+          "dose": "135 mg",
+          "frequency": "OD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Rozavel",
+          "dose": "20 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Fever resolved. CRP declining. Completing antibiotic course at home."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #55",
+      "_test_type": "success",
+      "patient_id": "P-1055",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Tension headache",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Amaryl",
+          "dose": "1 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Oflox",
+          "dose": "200 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Post-operative recovery uneventful. Wound clean. Oral antibiotics and analgesics advised."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #56",
+      "_test_type": "success",
+      "patient_id": "P-1056",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-operative pain management",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Glycomet",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Olmezest",
+          "dose": "20 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        },
+        {
+          "brand_name": "Altacef",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Seizure-free for 48 hours. Anti-epileptic levels therapeutic. Safe for discharge."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #57",
+      "_test_type": "success",
+      "patient_id": "P-1057",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Hypertension management",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Stilnoct",
+          "dose": "5 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient counseled on medication compliance. Return if symptoms recur."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #58",
+      "_test_type": "success",
+      "patient_id": "P-1058",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Bronchitis with fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Tavanic",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Taxim-O",
+          "dose": "200 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Glycomet",
+          "dose": "850 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Clinical improvement noted. Labs trending towards normal. Follow-up in 1 week."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #59",
+      "_test_type": "success",
+      "patient_id": "P-1059",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Diabetic foot ulcer with cellulitis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Xyzal",
+          "dose": "5 mg",
+          "frequency": "TDS",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Cardiac enzymes normalized. Dual antiplatelet started. Cardiology follow-up."
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #60",
+      "_test_type": "success",
+      "patient_id": "P-1060",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Tension headache",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Cardace",
+          "dose": "5 mg",
+          "frequency": "BD",
+          "duration": "7 days"
+        }
+      ],
+      "clinical_notes": "Respiratory distress resolved. Nebulization weaned. Inhalers prescribed."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #1",
+      "_test_type": "success",
+      "patient_id": "P-1061",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute asthma",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Augmentin",
+          "dose": "625 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Augmentin 625 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #2",
+      "_test_type": "success",
+      "patient_id": "P-1062",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Infective endocarditis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Taxim-O",
+          "dose": "200 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Taxim-O 200 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #3",
+      "_test_type": "success",
+      "patient_id": "P-1063",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute gastroenteritis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Rantac",
+          "dose": "150 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Rantac 150 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #4",
+      "_test_type": "success",
+      "patient_id": "P-1064",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Appendicitis — post appendectomy",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Voveran",
+          "dose": "50 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Voveran 50 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #5",
+      "_test_type": "success",
+      "patient_id": "P-1065",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Bronchitis with fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Glycomet",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Glycomet 500 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #6",
+      "_test_type": "success",
+      "patient_id": "P-1066",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-operative pain management",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Amlopress",
+          "dose": "5 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Amlopress 5 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #7",
+      "_test_type": "success",
+      "patient_id": "P-1067",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Nausea and vomiting — post chemotherapy",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Losar",
+          "dose": "25 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Losar 25 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #8",
+      "_test_type": "success",
+      "patient_id": "P-1068",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Viral upper respiratory infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Azithral",
+          "dose": "250 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Azithral 250 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #9",
+      "_test_type": "success",
+      "patient_id": "P-1069",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-CABG recovery",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Omnacortil",
+          "dose": "5 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Omnacortil 5 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #10",
+      "_test_type": "success",
+      "patient_id": "P-1070",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Chronic urticaria",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Pan",
+          "dose": "20 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Pan 20 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #11",
+      "_test_type": "success",
+      "patient_id": "P-1071",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Lumbar spondylosis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Augmentin",
+          "dose": "625 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Augmentin 625 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #12",
+      "_test_type": "success",
+      "patient_id": "P-1072",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Chronic urticaria",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Taxim-O",
+          "dose": "200 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Taxim-O 200 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #13",
+      "_test_type": "success",
+      "patient_id": "P-1073",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Peptic ulcer disease",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Rantac",
+          "dose": "150 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Rantac 150 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #14",
+      "_test_type": "success",
+      "patient_id": "P-1074",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Surgical site infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Voveran",
+          "dose": "50 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Voveran 50 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #15",
+      "_test_type": "success",
+      "patient_id": "P-1075",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Infective endocarditis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Glycomet",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Glycomet 500 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #16",
+      "_test_type": "success",
+      "patient_id": "P-1076",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Major depressive disorder",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Amlopress",
+          "dose": "5 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Amlopress 5 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #17",
+      "_test_type": "success",
+      "patient_id": "P-1077",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Deep vein thrombosis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Losar",
+          "dose": "25 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Losar 25 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #18",
+      "_test_type": "success",
+      "patient_id": "P-1078",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Skin and soft tissue infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Azithral",
+          "dose": "250 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Azithral 250 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #19",
+      "_test_type": "success",
+      "patient_id": "P-1079",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Febrile neutropenia",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Omnacortil",
+          "dose": "5 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Omnacortil 5 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #20",
+      "_test_type": "success",
+      "patient_id": "P-1080",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Peptic ulcer disease",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Pan",
+          "dose": "20 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Prescribed Pan 20 mg — currently out of stock. Alternative required."
+    },
+    {
+      "_scenario": "RBAC VIOLATION — billing role calls get_clinical_notes on ehr server #1",
+      "_test_type": "failure",
+      "patient_id": "P-1081",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Community acquired pneumonia",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. billing role should be DENIED access to get_clinical_notes.",
+      "_rbac_test": {
+        "requesting_role": "billing",
+        "tool_called": "get_clinical_notes",
+        "target_server": "ehr",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — pharmacy role calls get_discharge_summary on ehr server #2",
+      "_test_type": "failure",
+      "patient_id": "P-1082",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Observation only — chest pain ruled out",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. pharmacy role should be DENIED access to get_discharge_summary.",
+      "_rbac_test": {
+        "requesting_role": "pharmacy",
+        "tool_called": "get_discharge_summary",
+        "target_server": "ehr",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — clinical role calls create_invoice on billing server #3",
+      "_test_type": "failure",
+      "patient_id": "P-1083",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Epilepsy — breakthrough seizure",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. clinical role should be DENIED access to create_invoice.",
+      "_rbac_test": {
+        "requesting_role": "clinical",
+        "tool_called": "create_invoice",
+        "target_server": "billing",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — pharmacy role calls create_invoice on billing server #4",
+      "_test_type": "failure",
+      "patient_id": "P-1084",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute gastroenteritis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. pharmacy role should be DENIED access to create_invoice.",
+      "_rbac_test": {
+        "requesting_role": "pharmacy",
+        "tool_called": "create_invoice",
+        "target_server": "billing",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — billing role calls resolve_generic on pharmacy server #5",
+      "_test_type": "failure",
+      "patient_id": "P-1085",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Appendicitis — post appendectomy",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. billing role should be DENIED access to resolve_generic.",
+      "_rbac_test": {
+        "requesting_role": "billing",
+        "tool_called": "resolve_generic",
+        "target_server": "pharmacy",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — billing role calls check_stock on pharmacy server #6",
+      "_test_type": "failure",
+      "patient_id": "P-1086",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Deep vein thrombosis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. billing role should be DENIED access to check_stock.",
+      "_rbac_test": {
+        "requesting_role": "billing",
+        "tool_called": "check_stock",
+        "target_server": "pharmacy",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — admin role calls get_clinical_notes on ehr server #7",
+      "_test_type": "failure",
+      "patient_id": "P-1087",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Chronic urticaria",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. admin role should be DENIED access to get_clinical_notes.",
+      "_rbac_test": {
+        "requesting_role": "admin",
+        "tool_called": "get_clinical_notes",
+        "target_server": "ehr",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — admin role calls create_invoice on billing server #8",
+      "_test_type": "failure",
+      "patient_id": "P-1088",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Sciatica",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. admin role should be DENIED access to create_invoice.",
+      "_rbac_test": {
+        "requesting_role": "admin",
+        "tool_called": "create_invoice",
+        "target_server": "billing",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — billing role calls get_medication_list on ehr server #9",
+      "_test_type": "failure",
+      "patient_id": "P-1089",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Chronic urticaria",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. billing role should be DENIED access to get_medication_list.",
+      "_rbac_test": {
+        "requesting_role": "billing",
+        "tool_called": "get_medication_list",
+        "target_server": "ehr",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — billing role calls get_clinical_notes on ehr server #10",
+      "_test_type": "failure",
+      "patient_id": "P-1090",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Observation only — chest pain ruled out",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. billing role should be DENIED access to get_clinical_notes.",
+      "_rbac_test": {
+        "requesting_role": "billing",
+        "tool_called": "get_clinical_notes",
+        "target_server": "ehr",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — pharmacy role calls get_discharge_summary on ehr server #11",
+      "_test_type": "failure",
+      "patient_id": "P-1091",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Chronic kidney disease stage 3",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. pharmacy role should be DENIED access to get_discharge_summary.",
+      "_rbac_test": {
+        "requesting_role": "pharmacy",
+        "tool_called": "get_discharge_summary",
+        "target_server": "ehr",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — clinical role calls create_invoice on billing server #12",
+      "_test_type": "failure",
+      "patient_id": "P-1092",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Pulmonary embolism",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. clinical role should be DENIED access to create_invoice.",
+      "_rbac_test": {
+        "requesting_role": "clinical",
+        "tool_called": "create_invoice",
+        "target_server": "billing",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — pharmacy role calls create_invoice on billing server #13",
+      "_test_type": "failure",
+      "patient_id": "P-1093",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Meningitis — empirical treatment",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. pharmacy role should be DENIED access to create_invoice.",
+      "_rbac_test": {
+        "requesting_role": "pharmacy",
+        "tool_called": "create_invoice",
+        "target_server": "billing",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — billing role calls resolve_generic on pharmacy server #14",
+      "_test_type": "failure",
+      "patient_id": "P-1094",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Herpes zoster",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. billing role should be DENIED access to resolve_generic.",
+      "_rbac_test": {
+        "requesting_role": "billing",
+        "tool_called": "resolve_generic",
+        "target_server": "pharmacy",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "RBAC VIOLATION — billing role calls check_stock on pharmacy server #15",
+      "_test_type": "failure",
+      "patient_id": "P-1095",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Deep vein thrombosis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "RBAC test case. billing role should be DENIED access to check_stock.",
+      "_rbac_test": {
+        "requesting_role": "billing",
+        "tool_called": "check_stock",
+        "target_server": "pharmacy",
+        "expected_result": "access_denied"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #1",
+      "_test_type": "failure",
+      "patient_id": "P-1096",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Diabetic foot ulcer with cellulitis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "paracetamol 500 mg",
+            "quantity": 9
+          },
+          {
+            "item": "Consultation",
+            "diagnosis": "Pneumonia",
+            "quantity": 1
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #2",
+      "_test_type": "failure",
+      "patient_id": "P-1097",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Chronic urticaria",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "clinical_review",
+            "quantity": 1
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #3",
+      "_test_type": "failure",
+      "patient_id": "P-1098",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Viral upper respiratory infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "amoxicillin + clavulanate 1g",
+            "quantity": 10
+          },
+          {
+            "item": "Diagnosis: UTI",
+            "quantity": 1
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #4",
+      "_test_type": "failure",
+      "patient_id": "P-1099",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Cellulitis of lower limb",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "paracetamol 500 mg",
+            "quantity": 6,
+            "clinical_notes": "Patient has history of liver disease"
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #5",
+      "_test_type": "failure",
+      "patient_id": "P-1100",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Urinary tract infection",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "discharge_summary_clinical",
+            "quantity": 1
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #6",
+      "_test_type": "failure",
+      "patient_id": "P-1101",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Congestive heart failure",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "paracetamol 500 mg",
+            "quantity": 9
+          },
+          {
+            "item": "Consultation",
+            "diagnosis": "Pneumonia",
+            "quantity": 1
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #7",
+      "_test_type": "failure",
+      "patient_id": "P-1102",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-hip replacement",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "clinical_review",
+            "quantity": 1
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #8",
+      "_test_type": "failure",
+      "patient_id": "P-1103",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Major depressive disorder",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "amoxicillin + clavulanate 1g",
+            "quantity": 10
+          },
+          {
+            "item": "Diagnosis: UTI",
+            "quantity": 1
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #9",
+      "_test_type": "failure",
+      "patient_id": "P-1104",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute exacerbation of COPD",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "paracetamol 500 mg",
+            "quantity": 6,
+            "clinical_notes": "Patient has history of liver disease"
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #10",
+      "_test_type": "failure",
+      "patient_id": "P-1105",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Preeclampsia — postpartum",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "PHI leakage test. Billing payload should be rejected.",
+      "_phi_leakage_test": {
+        "malicious_payload": [
+          {
+            "item": "discharge_summary_clinical",
+            "quantity": 1
+          }
+        ],
+        "expected_result": "rejected",
+        "expected_error": "PHI LEAKAGE DETECTED"
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1106",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Congestive heart failure",
+      "allergies": [
+        "penicillin"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Augmentin",
+          "dose": "625 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: penicillin. Augmentin is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "penicillin"
+        ],
+        "prescribed_brand": "Augmentin",
+        "prescribed_class": "penicillin",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1107",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Viral upper respiratory infection",
+      "allergies": [
+        "penicillin"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Mox",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: penicillin. Mox is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "penicillin"
+        ],
+        "prescribed_brand": "Mox",
+        "prescribed_class": "penicillin",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1108",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Oral candidiasis",
+      "allergies": [
+        "penicillin"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Amoxil",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: penicillin. Amoxil is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "penicillin"
+        ],
+        "prescribed_brand": "Amoxil",
+        "prescribed_class": "penicillin",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #4",
+      "_test_type": "edge_case",
+      "patient_id": "P-1109",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Bronchitis with fever",
+      "allergies": [
+        "penicillin"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Ampilox",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: penicillin. Ampilox is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "penicillin"
+        ],
+        "prescribed_brand": "Ampilox",
+        "prescribed_class": "penicillin",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — SAFE prescription #5",
+      "_test_type": "edge_case",
+      "patient_id": "P-1110",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Herpes zoster",
+      "allergies": [
+        "penicillin"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: penicillin. Crocin is SAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "penicillin"
+        ],
+        "prescribed_brand": "Crocin",
+        "prescribed_class": "analgesic",
+        "is_unsafe": false,
+        "requires_doctor_review": false
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #6",
+      "_test_type": "edge_case",
+      "patient_id": "P-1111",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Meningitis — empirical treatment",
+      "allergies": [
+        "sulfonamides"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Bactrim",
+          "dose": "400+80 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: sulfonamides. Bactrim is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "sulfonamides"
+        ],
+        "prescribed_brand": "Bactrim",
+        "prescribed_class": "sulfonamide",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #7",
+      "_test_type": "edge_case",
+      "patient_id": "P-1112",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Appendicitis — post appendectomy",
+      "allergies": [
+        "sulfonamides"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Septran",
+          "dose": "400+80 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: sulfonamides. Septran is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "sulfonamides"
+        ],
+        "prescribed_brand": "Septran",
+        "prescribed_class": "sulfonamide",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #8",
+      "_test_type": "edge_case",
+      "patient_id": "P-1113",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Preeclampsia — postpartum",
+      "allergies": [
+        "aspirin"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Ecosprin",
+          "dose": "75 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: aspirin. Ecosprin is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "aspirin"
+        ],
+        "prescribed_brand": "Ecosprin",
+        "prescribed_class": "antiplatelet",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #9",
+      "_test_type": "edge_case",
+      "patient_id": "P-1114",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Rheumatoid arthritis flare",
+      "allergies": [
+        "aspirin"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Deplatt-A",
+          "dose": "75+75 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: aspirin. Deplatt-A is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "aspirin"
+        ],
+        "prescribed_brand": "Deplatt-A",
+        "prescribed_class": "antiplatelet",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #10",
+      "_test_type": "edge_case",
+      "patient_id": "P-1115",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Unstable angina",
+      "allergies": [
+        "nsaid"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Brufen",
+          "dose": "400 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: nsaid. Brufen is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "nsaid"
+        ],
+        "prescribed_brand": "Brufen",
+        "prescribed_class": "nsaid",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #11",
+      "_test_type": "edge_case",
+      "patient_id": "P-1116",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Oral candidiasis",
+      "allergies": [
+        "nsaid"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Voveran",
+          "dose": "50 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: nsaid. Voveran is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "nsaid"
+        ],
+        "prescribed_brand": "Voveran",
+        "prescribed_class": "nsaid",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #12",
+      "_test_type": "edge_case",
+      "patient_id": "P-1117",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Gastroesophageal reflux disease",
+      "allergies": [
+        "penicillin",
+        "sulfonamides"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Augmentin",
+          "dose": "1g",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: penicillin, sulfonamides. Augmentin is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "penicillin",
+          "sulfonamides"
+        ],
+        "prescribed_brand": "Augmentin",
+        "prescribed_class": "penicillin",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #13",
+      "_test_type": "edge_case",
+      "patient_id": "P-1118",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute gastroenteritis",
+      "allergies": [
+        "penicillin",
+        "cephalosporin"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Monocef",
+          "dose": "1g",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: penicillin, cephalosporin. Monocef is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "penicillin",
+          "cephalosporin"
+        ],
+        "prescribed_brand": "Monocef",
+        "prescribed_class": "cephalosporin",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #14",
+      "_test_type": "edge_case",
+      "patient_id": "P-1119",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Tension headache",
+      "allergies": [
+        "codeine"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Codeine Phosphate",
+          "dose": "30 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: codeine. Codeine Phosphate is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "codeine"
+        ],
+        "prescribed_brand": "Codeine Phosphate",
+        "prescribed_class": "controlled",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #15",
+      "_test_type": "edge_case",
+      "patient_id": "P-1120",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute viral fever",
+      "allergies": [
+        "ibuprofen"
+      ],
+      "discharge_medications": [
+        {
+          "brand_name": "Combiflam",
+          "dose": "400+325 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Patient has allergies: ibuprofen. Combiflam is UNSAFE.",
+      "_allergy_test": {
+        "allergies": [
+          "ibuprofen"
+        ],
+        "prescribed_brand": "Combiflam",
+        "prescribed_class": "nsaid",
+        "is_unsafe": true,
+        "requires_doctor_review": true
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1121",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute viral fever",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Calpol",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Duplicate detected: Crocin and Calpol.",
+      "_duplicate_test": {
+        "brand_1": "Crocin",
+        "brand_2": "Calpol",
+        "is_true_duplicate": true,
+        "expected_deduplicated": true
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1122",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Unstable angina",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Tylenol",
+          "dose": "650 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Dolo",
+          "dose": "650 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Duplicate detected: Tylenol and Dolo.",
+      "_duplicate_test": {
+        "brand_1": "Tylenol",
+        "brand_2": "Dolo",
+        "is_true_duplicate": true,
+        "expected_deduplicated": true
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1123",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Diabetic ketoacidosis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Duplicate detected: Crocin and paracetamol.",
+      "_duplicate_test": {
+        "brand_1": "Crocin",
+        "brand_2": "(generic: paracetamol)",
+        "is_true_duplicate": true,
+        "expected_deduplicated": true
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #4",
+      "_test_type": "edge_case",
+      "patient_id": "P-1124",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Acute gastroenteritis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Tylenol",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Metacin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Duplicate detected: Tylenol and Metacin.",
+      "_duplicate_test": {
+        "brand_1": "Tylenol",
+        "brand_2": "Metacin",
+        "is_true_duplicate": true,
+        "expected_deduplicated": true
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #5",
+      "_test_type": "edge_case",
+      "patient_id": "P-1125",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Diabetic foot ulcer with cellulitis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Ciplox",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Cifran",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Duplicate detected: Ciplox and Cifran.",
+      "_duplicate_test": {
+        "brand_1": "Ciplox",
+        "brand_2": "Cifran",
+        "is_true_duplicate": true,
+        "expected_deduplicated": true
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #6",
+      "_test_type": "edge_case",
+      "patient_id": "P-1126",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Musculoskeletal pain",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Azithral",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Azee",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Duplicate detected: Azithral and Azee.",
+      "_duplicate_test": {
+        "brand_1": "Azithral",
+        "brand_2": "Azee",
+        "is_true_duplicate": true,
+        "expected_deduplicated": true
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #7",
+      "_test_type": "edge_case",
+      "patient_id": "P-1127",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-hip replacement",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Atorva",
+          "dose": "20 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Lipitor",
+          "dose": "20 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Duplicate detected: Atorva and Lipitor.",
+      "_duplicate_test": {
+        "brand_1": "Atorva",
+        "brand_2": "Lipitor",
+        "is_true_duplicate": true,
+        "expected_deduplicated": true
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #8",
+      "_test_type": "edge_case",
+      "patient_id": "P-1128",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Epilepsy — breakthrough seizure",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Clopilet",
+          "dose": "75 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Plavix",
+          "dose": "75 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Duplicate detected: Clopilet and Plavix.",
+      "_duplicate_test": {
+        "brand_1": "Clopilet",
+        "brand_2": "Plavix",
+        "is_true_duplicate": true,
+        "expected_deduplicated": true
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — FALSE POSITIVE (different generics) #9",
+      "_test_type": "edge_case",
+      "patient_id": "P-1129",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Tension headache",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Omez",
+          "dose": "20 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Pantocid",
+          "dose": "20 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "NOT a duplicate: Omez and Pantocid.",
+      "_duplicate_test": {
+        "brand_1": "Omez",
+        "brand_2": "Pantocid",
+        "is_true_duplicate": false,
+        "expected_deduplicated": false
+      }
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #10",
+      "_test_type": "edge_case",
+      "patient_id": "P-1130",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Pulmonary embolism",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Brufen",
+          "dose": "400 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Ibugesic",
+          "dose": "400 mg",
+          "frequency": "TDS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Duplicate detected: Brufen and Ibugesic.",
+      "_duplicate_test": {
+        "brand_1": "Brufen",
+        "brand_2": "Ibugesic",
+        "is_true_duplicate": true,
+        "expected_deduplicated": true
+      }
+    },
+    {
+      "_scenario": "SIMILAR DRUG NAMES — dopamine vs dobutamine confusion trap #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1131",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Appendicitis — post appendectomy",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Dopmin",
+          "dose": "200 mg/5mL",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Dobutrex",
+          "dose": "250 mg/20mL",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CAUTION: dopamine and dobutamine are DIFFERENT drugs despite similar names. Do NOT deduplicate.",
+      "_similar_name_test": {
+        "drug_1": "dopamine",
+        "drug_2": "dobutamine",
+        "are_same_drug": false,
+        "should_deduplicate": false
+      }
+    },
+    {
+      "_scenario": "SIMILAR DRUG NAMES — losartan vs losartan + hydrochlorothiazide confusion trap #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1132",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Deep vein thrombosis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Losartan",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Losar-H",
+          "dose": "50+12.5 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CAUTION: losartan and losartan + hydrochlorothiazide are DIFFERENT drugs despite similar names. Do NOT deduplicate.",
+      "_similar_name_test": {
+        "drug_1": "losartan",
+        "drug_2": "losartan + hydrochlorothiazide",
+        "are_same_drug": false,
+        "should_deduplicate": false
+      }
+    },
+    {
+      "_scenario": "SIMILAR DRUG NAMES — clopidogrel vs aspirin confusion trap #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1133",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Allergic rhinitis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Clopilet",
+          "dose": "75 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Ecosprin",
+          "dose": "75 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CAUTION: clopidogrel and aspirin are DIFFERENT drugs despite similar names. Do NOT deduplicate.",
+      "_similar_name_test": {
+        "drug_1": "clopidogrel",
+        "drug_2": "aspirin",
+        "are_same_drug": false,
+        "should_deduplicate": false
+      }
+    },
+    {
+      "_scenario": "SIMILAR DRUG NAMES — metoprolol vs metformin confusion trap #4",
+      "_test_type": "edge_case",
+      "patient_id": "P-1134",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Sciatica",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Metoprolol",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Metformin",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CAUTION: metoprolol and metformin are DIFFERENT drugs despite similar names. Do NOT deduplicate.",
+      "_similar_name_test": {
+        "drug_1": "metoprolol",
+        "drug_2": "metformin",
+        "are_same_drug": false,
+        "should_deduplicate": false
+      }
+    },
+    {
+      "_scenario": "SIMILAR DRUG NAMES — prednisolone vs methylprednisolone confusion trap #5",
+      "_test_type": "edge_case",
+      "patient_id": "P-1135",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Rheumatoid arthritis flare",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Prednisolone",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        },
+        {
+          "brand_name": "Methylprednisolone",
+          "dose": "10 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CAUTION: prednisolone and methylprednisolone are DIFFERENT drugs despite similar names. Do NOT deduplicate.",
+      "_similar_name_test": {
+        "drug_1": "prednisolone",
+        "drug_2": "methylprednisolone",
+        "are_same_drug": false,
+        "should_deduplicate": false
+      }
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1136",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-operative pain management — major surgery",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Morphine Sulfate",
+          "dose": "10 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CONTROLLED SUBSTANCE: Morphine Sulfate prescribed for severe pain. Billing should only see billable item name and quantity — NO clinical notes, NO diagnosis, NO prescription justification.",
+      "_controlled_substance_test": {
+        "controlled_drug": "Morphine Sulfate",
+        "generic": "morphine",
+        "billing_should_see": {
+          "item": "morphine 10 mg",
+          "quantity": 6
+        },
+        "billing_must_NOT_see": [
+          "clinical_notes",
+          "diagnosis_summary",
+          "prescription_justification",
+          "pain_score",
+          "controlled_substance_schedule"
+        ]
+      }
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1137",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-operative pain management — major surgery",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Durogesic",
+          "dose": "25 mcg/hr patch",
+          "frequency": "SOS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CONTROLLED SUBSTANCE: Durogesic prescribed for severe pain. Billing should only see billable item name and quantity — NO clinical notes, NO diagnosis, NO prescription justification.",
+      "_controlled_substance_test": {
+        "controlled_drug": "Durogesic",
+        "generic": "fentanyl",
+        "billing_should_see": {
+          "item": "fentanyl 25 mcg/hr patch",
+          "quantity": 6
+        },
+        "billing_must_NOT_see": [
+          "clinical_notes",
+          "diagnosis_summary",
+          "prescription_justification",
+          "pain_score",
+          "controlled_substance_schedule"
+        ]
+      }
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1138",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-operative pain management — major surgery",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "OxyContin",
+          "dose": "5 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CONTROLLED SUBSTANCE: OxyContin prescribed for severe pain. Billing should only see billable item name and quantity — NO clinical notes, NO diagnosis, NO prescription justification.",
+      "_controlled_substance_test": {
+        "controlled_drug": "OxyContin",
+        "generic": "oxycodone",
+        "billing_should_see": {
+          "item": "oxycodone 5 mg",
+          "quantity": 6
+        },
+        "billing_must_NOT_see": [
+          "clinical_notes",
+          "diagnosis_summary",
+          "prescription_justification",
+          "pain_score",
+          "controlled_substance_schedule"
+        ]
+      }
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #4",
+      "_test_type": "edge_case",
+      "patient_id": "P-1139",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-operative pain management — major surgery",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Codeine Phosphate",
+          "dose": "15 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CONTROLLED SUBSTANCE: Codeine Phosphate prescribed for severe pain. Billing should only see billable item name and quantity — NO clinical notes, NO diagnosis, NO prescription justification.",
+      "_controlled_substance_test": {
+        "controlled_drug": "Codeine Phosphate",
+        "generic": "codeine",
+        "billing_should_see": {
+          "item": "codeine 15 mg",
+          "quantity": 6
+        },
+        "billing_must_NOT_see": [
+          "clinical_notes",
+          "diagnosis_summary",
+          "prescription_justification",
+          "pain_score",
+          "controlled_substance_schedule"
+        ]
+      }
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #5",
+      "_test_type": "edge_case",
+      "patient_id": "P-1140",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Post-operative pain management — major surgery",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Buprigesic",
+          "dose": "0.3 mg",
+          "frequency": "SOS",
+          "duration": "3 days"
+        },
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "CONTROLLED SUBSTANCE: Buprigesic prescribed for severe pain. Billing should only see billable item name and quantity — NO clinical notes, NO diagnosis, NO prescription justification.",
+      "_controlled_substance_test": {
+        "controlled_drug": "Buprigesic",
+        "generic": "buprenorphine",
+        "billing_should_see": {
+          "item": "buprenorphine 0.3 mg",
+          "quantity": 6
+        },
+        "billing_must_NOT_see": [
+          "clinical_notes",
+          "diagnosis_summary",
+          "prescription_justification",
+          "pain_score",
+          "controlled_substance_schedule"
+        ]
+      }
+    },
+    {
+      "_scenario": "MISSING DATA — Malformed medication record #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1141",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Epilepsy — breakthrough seizure",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "",
+          "frequency": "SOS",
+          "duration": "3 days"
+        }
+      ],
+      "clinical_notes": "Data quality issue: medication record has missing fields. System should flag for human review.",
+      "_missing_data_test": {
+        "missing_field": [
+          "dose"
+        ],
+        "expected_result": "validation_error",
+        "requires_human_review": true
+      }
+    },
+    {
+      "_scenario": "MISSING DATA — Malformed medication record #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1142",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Gastroesophageal reflux disease",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Augmentin",
+          "dose": "625 mg",
+          "frequency": "",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Data quality issue: medication record has missing fields. System should flag for human review.",
+      "_missing_data_test": {
+        "missing_field": [
+          "frequency"
+        ],
+        "expected_result": "validation_error",
+        "requires_human_review": true
+      }
+    },
+    {
+      "_scenario": "MISSING DATA — Malformed medication record #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1143",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Chronic kidney disease stage 3",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg",
+          "frequency": "TDS",
+          "duration": ""
+        }
+      ],
+      "clinical_notes": "Data quality issue: medication record has missing fields. System should flag for human review.",
+      "_missing_data_test": {
+        "missing_field": [
+          "duration"
+        ],
+        "expected_result": "validation_error",
+        "requires_human_review": true
+      }
+    },
+    {
+      "_scenario": "MISSING DATA — Malformed medication record #4",
+      "_test_type": "edge_case",
+      "patient_id": "P-1144",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Sciatica",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "",
+          "dose": "500 mg",
+          "frequency": "BD",
+          "duration": "5 days"
+        }
+      ],
+      "clinical_notes": "Data quality issue: medication record has missing fields. System should flag for human review.",
+      "_missing_data_test": {
+        "missing_field": [
+          "brand_name"
+        ],
+        "expected_result": "validation_error",
+        "requires_human_review": true
+      }
+    },
+    {
+      "_scenario": "MISSING DATA — Malformed medication record #5",
+      "_test_type": "edge_case",
+      "patient_id": "P-1145",
+      "discharge_status": "ready",
+      "diagnosis_summary": "Lumbar spondylosis",
+      "allergies": [],
+      "discharge_medications": [
+        {
+          "brand_name": "Crocin",
+          "dose": "500 mg"
+        }
+      ],
+      "clinical_notes": "Data quality issue: medication record has missing fields. System should flag for human review.",
+      "_missing_data_test": {
+        "missing_field": [
+          "frequency",
+          "duration"
+        ],
+        "expected_result": "validation_error",
+        "requires_human_review": true
+      }
+    },
+    {
+      "_scenario": "PATIENT NOT FOUND — ID does not exist in EHR #1",
+      "_test_type": "failure",
+      "patient_id": "P-9990",
+      "discharge_status": "unknown",
+      "diagnosis_summary": "N/A",
+      "allergies": [],
+      "discharge_medications": [],
+      "clinical_notes": "",
+      "_edge_case": {
+        "expected_result": "Patient not found.",
+        "reason": "Patient ID does not exist in EHR_DATA."
+      }
+    },
+    {
+      "_scenario": "PATIENT NOT FOUND — ID does not exist in EHR #2",
+      "_test_type": "failure",
+      "patient_id": "P-9991",
+      "discharge_status": "unknown",
+      "diagnosis_summary": "N/A",
+      "allergies": [],
+      "discharge_medications": [],
+      "clinical_notes": "",
+      "_edge_case": {
+        "expected_result": "Patient not found.",
+        "reason": "Patient ID does not exist in EHR_DATA."
+      }
+    },
+    {
+      "_scenario": "PATIENT NOT FOUND — ID does not exist in EHR #3",
+      "_test_type": "failure",
+      "patient_id": "P-9992",
+      "discharge_status": "unknown",
+      "diagnosis_summary": "N/A",
+      "allergies": [],
+      "discharge_medications": [],
+      "clinical_notes": "",
+      "_edge_case": {
+        "expected_result": "Patient not found.",
+        "reason": "Patient ID does not exist in EHR_DATA."
+      }
+    },
+    {
+      "_scenario": "NOT READY FOR DISCHARGE — Workflow must halt #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1149",
+      "discharge_status": "not_ready",
+      "diagnosis_summary": "Acute myocardial infarction",
+      "allergies": [
+        "aspirin"
+      ],
+      "discharge_medications": [],
+      "clinical_notes": "Patient still under critical care. Discharge NOT appropriate. Workflow must halt.",
+      "_edge_case": {
+        "expected_workflow_action": "abort_discharge",
+        "reason": "discharge_status is 'not_ready'."
+      }
+    },
+    {
+      "_scenario": "NOT READY FOR DISCHARGE — Workflow must halt #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1150",
+      "discharge_status": "not_ready",
+      "diagnosis_summary": "ICU — ventilator dependent",
+      "allergies": [],
+      "discharge_medications": [],
+      "clinical_notes": "Patient still under critical care. Discharge NOT appropriate. Workflow must halt.",
+      "_edge_case": {
+        "expected_workflow_action": "abort_discharge",
+        "reason": "discharge_status is 'not_ready'."
+      }
+    }
+  ],
+  "metadata": {
+    "total_records": 150,
+    "by_type": {
+      "success": 80,
+      "failure": 28,
+      "edge_case": 42
+    }
+  }
+}

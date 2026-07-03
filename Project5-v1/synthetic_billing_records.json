@@ -1,0 +1,3367 @@
+{
+  "billing_catalog": [
+    {
+      "item_name": "amoxicillin + clavulanate 625 mg",
+      "code": "AB-001",
+      "price": 1.76,
+      "drug_class": "penicillin"
+    },
+    {
+      "item_name": "amoxicillin + clavulanate 1g",
+      "code": "AB-002",
+      "price": 2.59,
+      "drug_class": "penicillin"
+    },
+    {
+      "item_name": "amoxicillin 250 mg",
+      "code": "AB-003",
+      "price": 2.11,
+      "drug_class": "penicillin"
+    },
+    {
+      "item_name": "amoxicillin 500 mg",
+      "code": "AB-004",
+      "price": 2.06,
+      "drug_class": "penicillin"
+    },
+    {
+      "item_name": "ampicillin 500 mg",
+      "code": "AB-005",
+      "price": 2.32,
+      "drug_class": "penicillin"
+    },
+    {
+      "item_name": "piperacillin + tazobactam 4.5g",
+      "code": "AB-006",
+      "price": 1.47,
+      "drug_class": "penicillin"
+    },
+    {
+      "item_name": "flucloxacillin 500 mg",
+      "code": "AB-007",
+      "price": 2.12,
+      "drug_class": "penicillin"
+    },
+    {
+      "item_name": "cefixime 200 mg",
+      "code": "AC-001",
+      "price": 3.46,
+      "drug_class": "cephalosporin"
+    },
+    {
+      "item_name": "ceftriaxone 1g",
+      "code": "AC-002",
+      "price": 4.19,
+      "drug_class": "cephalosporin"
+    },
+    {
+      "item_name": "cephalexin 500 mg",
+      "code": "AC-003",
+      "price": 2.73,
+      "drug_class": "cephalosporin"
+    },
+    {
+      "item_name": "cefuroxime 250 mg",
+      "code": "AC-004",
+      "price": 4.42,
+      "drug_class": "cephalosporin"
+    },
+    {
+      "item_name": "cefuroxime 500 mg",
+      "code": "AC-005",
+      "price": 2.57,
+      "drug_class": "cephalosporin"
+    },
+    {
+      "item_name": "cefpodoxime 200 mg",
+      "code": "AC-006",
+      "price": 2.79,
+      "drug_class": "cephalosporin"
+    },
+    {
+      "item_name": "cefoperazone + sulbactam 1.5g",
+      "code": "AC-007",
+      "price": 3.65,
+      "drug_class": "cephalosporin"
+    },
+    {
+      "item_name": "azithromycin 250 mg",
+      "code": "AD-001",
+      "price": 3.18,
+      "drug_class": "macrolide"
+    },
+    {
+      "item_name": "azithromycin 500 mg",
+      "code": "AD-002",
+      "price": 2.41,
+      "drug_class": "macrolide"
+    },
+    {
+      "item_name": "clarithromycin 250 mg",
+      "code": "AD-003",
+      "price": 2.21,
+      "drug_class": "macrolide"
+    },
+    {
+      "item_name": "clarithromycin 500 mg",
+      "code": "AD-004",
+      "price": 3.56,
+      "drug_class": "macrolide"
+    },
+    {
+      "item_name": "erythromycin 250 mg",
+      "code": "AD-005",
+      "price": 2.43,
+      "drug_class": "macrolide"
+    },
+    {
+      "item_name": "roxithromycin 150 mg",
+      "code": "AD-006",
+      "price": 3.04,
+      "drug_class": "macrolide"
+    },
+    {
+      "item_name": "ciprofloxacin 250 mg",
+      "code": "AE-001",
+      "price": 2.47,
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "item_name": "ciprofloxacin 500 mg",
+      "code": "AE-002",
+      "price": 2.19,
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "item_name": "levofloxacin 500 mg",
+      "code": "AE-003",
+      "price": 2.42,
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "item_name": "levofloxacin 750 mg",
+      "code": "AE-004",
+      "price": 2.33,
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "item_name": "moxifloxacin 400 mg",
+      "code": "AE-005",
+      "price": 2.91,
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "item_name": "ofloxacin 200 mg",
+      "code": "AE-006",
+      "price": 1.89,
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "item_name": "ofloxacin 400 mg",
+      "code": "AE-007",
+      "price": 2.6,
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "item_name": "norfloxacin 400 mg",
+      "code": "AE-008",
+      "price": 1.93,
+      "drug_class": "fluoroquinolone"
+    },
+    {
+      "item_name": "doxycycline 100 mg",
+      "code": "AF-001",
+      "price": 1.62,
+      "drug_class": "tetracycline"
+    },
+    {
+      "item_name": "minocycline 100 mg",
+      "code": "AF-002",
+      "price": 1.91,
+      "drug_class": "tetracycline"
+    },
+    {
+      "item_name": "gentamicin 80 mg",
+      "code": "AG-001",
+      "price": 5.05,
+      "drug_class": "aminoglycoside"
+    },
+    {
+      "item_name": "amikacin 500 mg",
+      "code": "AG-002",
+      "price": 5.11,
+      "drug_class": "aminoglycoside"
+    },
+    {
+      "item_name": "tobramycin 80 mg",
+      "code": "AG-003",
+      "price": 6.63,
+      "drug_class": "aminoglycoside"
+    },
+    {
+      "item_name": "sulfamethoxazole + trimethoprim 400+80 mg",
+      "code": "AH-001",
+      "price": 0.85,
+      "drug_class": "sulfonamide"
+    },
+    {
+      "item_name": "sulfamethoxazole + trimethoprim 800+160 mg",
+      "code": "AH-002",
+      "price": 1.12,
+      "drug_class": "sulfonamide"
+    },
+    {
+      "item_name": "sulfasalazine 500 mg",
+      "code": "AH-003",
+      "price": 1.5,
+      "drug_class": "sulfonamide"
+    },
+    {
+      "item_name": "paracetamol 500 mg",
+      "code": "RX-001",
+      "price": 0.75,
+      "drug_class": "analgesic"
+    },
+    {
+      "item_name": "paracetamol 650 mg",
+      "code": "RX-002",
+      "price": 0.43,
+      "drug_class": "analgesic"
+    },
+    {
+      "item_name": "tramadol + paracetamol 37.5+325 mg",
+      "code": "RX-003",
+      "price": 0.47,
+      "drug_class": "analgesic"
+    },
+    {
+      "item_name": "tramadol 50 mg",
+      "code": "RX-004",
+      "price": 0.49,
+      "drug_class": "analgesic"
+    },
+    {
+      "item_name": "tramadol 100 mg",
+      "code": "RX-005",
+      "price": 0.73,
+      "drug_class": "analgesic"
+    },
+    {
+      "item_name": "ibuprofen + paracetamol 400+325 mg",
+      "code": "NS-001",
+      "price": 1.06,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "ibuprofen 400 mg",
+      "code": "NS-002",
+      "price": 1.06,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "ibuprofen 600 mg",
+      "code": "NS-003",
+      "price": 0.79,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "diclofenac 50 mg",
+      "code": "NS-004",
+      "price": 0.68,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "diclofenac 75 mg",
+      "code": "NS-005",
+      "price": 1.04,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "naproxen 250 mg",
+      "code": "NS-006",
+      "price": 0.97,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "naproxen 500 mg",
+      "code": "NS-007",
+      "price": 0.92,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "piroxicam 20 mg",
+      "code": "NS-008",
+      "price": 1.12,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "ketorolac 10 mg",
+      "code": "NS-009",
+      "price": 0.94,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "indomethacin 25 mg",
+      "code": "NS-010",
+      "price": 0.6,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "mefenamic acid 250 mg",
+      "code": "NS-011",
+      "price": 1.03,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "mefenamic acid 500 mg",
+      "code": "NS-012",
+      "price": 0.76,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "aceclofenac 100 mg",
+      "code": "NS-013",
+      "price": 0.95,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "etoricoxib 60 mg",
+      "code": "NS-014",
+      "price": 1.09,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "etoricoxib 90 mg",
+      "code": "NS-015",
+      "price": 0.67,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "etoricoxib 120 mg",
+      "code": "NS-016",
+      "price": 0.66,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "celecoxib 100 mg",
+      "code": "NS-017",
+      "price": 0.66,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "celecoxib 200 mg",
+      "code": "NS-018",
+      "price": 0.89,
+      "drug_class": "nsaid"
+    },
+    {
+      "item_name": "amlodipine 5 mg",
+      "code": "CV-001",
+      "price": 1.49,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "amlodipine 10 mg",
+      "code": "CV-002",
+      "price": 1.84,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "telmisartan 20 mg",
+      "code": "CV-003",
+      "price": 1.95,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "telmisartan 40 mg",
+      "code": "CV-004",
+      "price": 1.41,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "telmisartan 80 mg",
+      "code": "CV-005",
+      "price": 1.87,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "telmisartan + hydrochlorothiazide 40+12.5 mg",
+      "code": "CV-006",
+      "price": 1.48,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "losartan 25 mg",
+      "code": "CV-007",
+      "price": 1.71,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "losartan 50 mg",
+      "code": "CV-008",
+      "price": 2.15,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "losartan + hydrochlorothiazide 50+12.5 mg",
+      "code": "CV-009",
+      "price": 2.09,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "ramipril 2.5 mg",
+      "code": "CV-010",
+      "price": 1.3,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "ramipril 5 mg",
+      "code": "CV-011",
+      "price": 1.64,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "enalapril 5 mg",
+      "code": "CV-012",
+      "price": 1.49,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "enalapril 10 mg",
+      "code": "CV-013",
+      "price": 1.2,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "metoprolol 25 mg",
+      "code": "CV-014",
+      "price": 2.01,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "metoprolol 50 mg",
+      "code": "CV-015",
+      "price": 1.87,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "atenolol 25 mg",
+      "code": "CV-016",
+      "price": 1.48,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "atenolol 50 mg",
+      "code": "CV-017",
+      "price": 1.98,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "valsartan 80 mg",
+      "code": "CV-018",
+      "price": 1.78,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "valsartan 160 mg",
+      "code": "CV-019",
+      "price": 1.65,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "olmesartan 20 mg",
+      "code": "CV-020",
+      "price": 1.21,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "olmesartan 40 mg",
+      "code": "CV-021",
+      "price": 1.28,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "amlodipine + atenolol 5+50 mg",
+      "code": "CV-022",
+      "price": 2.13,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "clonidine 100 mcg",
+      "code": "CV-023",
+      "price": 2.15,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "prazosin 1 mg",
+      "code": "CV-024",
+      "price": 1.77,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "prazosin 2.5 mg",
+      "code": "CV-025",
+      "price": 2.08,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "nifedipine 10 mg",
+      "code": "CV-026",
+      "price": 1.81,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "nifedipine 20 mg",
+      "code": "CV-027",
+      "price": 1.36,
+      "drug_class": "antihypertensive"
+    },
+    {
+      "item_name": "metformin 500 mg",
+      "code": "DM-001",
+      "price": 1.78,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "metformin 850 mg",
+      "code": "DM-002",
+      "price": 2.03,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "metformin 1000 mg",
+      "code": "DM-003",
+      "price": 2.86,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "glimepiride 1 mg",
+      "code": "DM-004",
+      "price": 2.71,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "glimepiride 2 mg",
+      "code": "DM-005",
+      "price": 2.8,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "glipizide 5 mg",
+      "code": "DM-006",
+      "price": 2.86,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "sitagliptin 50 mg",
+      "code": "DM-007",
+      "price": 1.89,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "sitagliptin 100 mg",
+      "code": "DM-008",
+      "price": 1.95,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "voglibose 0.2 mg",
+      "code": "DM-009",
+      "price": 1.74,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "voglibose 0.3 mg",
+      "code": "DM-010",
+      "price": 2.69,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "pioglitazone 15 mg",
+      "code": "DM-011",
+      "price": 2.84,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "pioglitazone 30 mg",
+      "code": "DM-012",
+      "price": 2.17,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "metformin + glimepiride 500+1 mg",
+      "code": "DM-013",
+      "price": 2.47,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "metformin + glimepiride 500+2 mg",
+      "code": "DM-014",
+      "price": 1.82,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "empagliflozin 10 mg",
+      "code": "DM-015",
+      "price": 2.9,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "empagliflozin 25 mg",
+      "code": "DM-016",
+      "price": 2.81,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "dapagliflozin 10 mg",
+      "code": "DM-017",
+      "price": 2.97,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "insulin glargine 100 IU/mL",
+      "code": "DM-018",
+      "price": 2.74,
+      "drug_class": "antidiabetic"
+    },
+    {
+      "item_name": "atorvastatin 10 mg",
+      "code": "ST-001",
+      "price": 2.48,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "atorvastatin 20 mg",
+      "code": "ST-002",
+      "price": 1.43,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "atorvastatin 40 mg",
+      "code": "ST-003",
+      "price": 2.3,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "rosuvastatin 5 mg",
+      "code": "ST-004",
+      "price": 1.81,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "rosuvastatin 10 mg",
+      "code": "ST-005",
+      "price": 2.54,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "rosuvastatin 20 mg",
+      "code": "ST-006",
+      "price": 2.38,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "simvastatin 20 mg",
+      "code": "ST-007",
+      "price": 2.46,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "simvastatin 40 mg",
+      "code": "ST-008",
+      "price": 2.39,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "pitavastatin 2 mg",
+      "code": "ST-009",
+      "price": 1.73,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "pitavastatin 4 mg",
+      "code": "ST-010",
+      "price": 2.36,
+      "drug_class": "statin"
+    },
+    {
+      "item_name": "aspirin 75 mg",
+      "code": "AP-001",
+      "price": 1.31,
+      "drug_class": "antiplatelet"
+    },
+    {
+      "item_name": "aspirin 150 mg",
+      "code": "AP-002",
+      "price": 2.12,
+      "drug_class": "antiplatelet"
+    },
+    {
+      "item_name": "aspirin 350 mg",
+      "code": "AP-003",
+      "price": 2.1,
+      "drug_class": "antiplatelet"
+    },
+    {
+      "item_name": "clopidogrel 75 mg",
+      "code": "AP-004",
+      "price": 1.43,
+      "drug_class": "antiplatelet"
+    },
+    {
+      "item_name": "ticagrelor 90 mg",
+      "code": "AP-005",
+      "price": 2.06,
+      "drug_class": "antiplatelet"
+    },
+    {
+      "item_name": "prasugrel 10 mg",
+      "code": "AP-006",
+      "price": 1.68,
+      "drug_class": "antiplatelet"
+    },
+    {
+      "item_name": "aspirin + clopidogrel 75+75 mg",
+      "code": "AP-007",
+      "price": 1.52,
+      "drug_class": "antiplatelet"
+    },
+    {
+      "item_name": "aspirin + clopidogrel 150+75 mg",
+      "code": "AP-008",
+      "price": 2.04,
+      "drug_class": "antiplatelet"
+    },
+    {
+      "item_name": "warfarin 1 mg",
+      "code": "AX-001",
+      "price": 7.67,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "warfarin 2 mg",
+      "code": "AX-002",
+      "price": 6.53,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "warfarin 5 mg",
+      "code": "AX-003",
+      "price": 7.48,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "enoxaparin 40 mg",
+      "code": "AX-004",
+      "price": 8.24,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "enoxaparin 60 mg",
+      "code": "AX-005",
+      "price": 11.24,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "rivaroxaban 10 mg",
+      "code": "AX-006",
+      "price": 11.81,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "rivaroxaban 15 mg",
+      "code": "AX-007",
+      "price": 7.96,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "rivaroxaban 20 mg",
+      "code": "AX-008",
+      "price": 9.99,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "apixaban 2.5 mg",
+      "code": "AX-009",
+      "price": 8.64,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "apixaban 5 mg",
+      "code": "AX-010",
+      "price": 11.89,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "dabigatran 110 mg",
+      "code": "AX-011",
+      "price": 9.4,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "dabigatran 150 mg",
+      "code": "AX-012",
+      "price": 11.66,
+      "drug_class": "anticoagulant"
+    },
+    {
+      "item_name": "pantoprazole 20 mg",
+      "code": "GI-001",
+      "price": 1.1,
+      "drug_class": "ppi"
+    },
+    {
+      "item_name": "pantoprazole 40 mg",
+      "code": "GI-002",
+      "price": 1.85,
+      "drug_class": "ppi"
+    },
+    {
+      "item_name": "omeprazole 20 mg",
+      "code": "GI-003",
+      "price": 1.16,
+      "drug_class": "ppi"
+    },
+    {
+      "item_name": "rabeprazole 20 mg",
+      "code": "GI-004",
+      "price": 1.84,
+      "drug_class": "ppi"
+    },
+    {
+      "item_name": "esomeprazole 20 mg",
+      "code": "GI-005",
+      "price": 1.23,
+      "drug_class": "ppi"
+    },
+    {
+      "item_name": "esomeprazole 40 mg",
+      "code": "GI-006",
+      "price": 1.09,
+      "drug_class": "ppi"
+    },
+    {
+      "item_name": "lansoprazole 15 mg",
+      "code": "GI-007",
+      "price": 1.38,
+      "drug_class": "ppi"
+    },
+    {
+      "item_name": "lansoprazole 30 mg",
+      "code": "GI-008",
+      "price": 1.64,
+      "drug_class": "ppi"
+    },
+    {
+      "item_name": "ranitidine 150 mg",
+      "code": "GA-001",
+      "price": 0.51,
+      "drug_class": "antacid"
+    },
+    {
+      "item_name": "famotidine 20 mg",
+      "code": "GA-002",
+      "price": 0.61,
+      "drug_class": "antacid"
+    },
+    {
+      "item_name": "famotidine 40 mg",
+      "code": "GA-003",
+      "price": 0.58,
+      "drug_class": "antacid"
+    },
+    {
+      "item_name": "sucralfate 1g",
+      "code": "GA-004",
+      "price": 0.53,
+      "drug_class": "antacid"
+    },
+    {
+      "item_name": "aluminium hydroxide + magnesium hydroxide 10 mL",
+      "code": "GA-005",
+      "price": 0.6,
+      "drug_class": "antacid"
+    },
+    {
+      "item_name": "ondansetron 4 mg",
+      "code": "AV-001",
+      "price": 0.98,
+      "drug_class": "antiemetic"
+    },
+    {
+      "item_name": "ondansetron 8 mg",
+      "code": "AV-002",
+      "price": 1.3,
+      "drug_class": "antiemetic"
+    },
+    {
+      "item_name": "domperidone 10 mg",
+      "code": "AV-003",
+      "price": 0.8,
+      "drug_class": "antiemetic"
+    },
+    {
+      "item_name": "metoclopramide 10 mg",
+      "code": "AV-004",
+      "price": 1.45,
+      "drug_class": "antiemetic"
+    },
+    {
+      "item_name": "promethazine 10 mg",
+      "code": "AV-005",
+      "price": 1.18,
+      "drug_class": "antiemetic"
+    },
+    {
+      "item_name": "promethazine 25 mg",
+      "code": "AV-006",
+      "price": 1.3,
+      "drug_class": "antiemetic"
+    },
+    {
+      "item_name": "salbutamol 2 mg",
+      "code": "RS-001",
+      "price": 3.3,
+      "drug_class": "bronchodilator"
+    },
+    {
+      "item_name": "salbutamol 4 mg",
+      "code": "RS-002",
+      "price": 3.17,
+      "drug_class": "bronchodilator"
+    },
+    {
+      "item_name": "salbutamol 100 mcg inhaler",
+      "code": "RS-003",
+      "price": 2.64,
+      "drug_class": "bronchodilator"
+    },
+    {
+      "item_name": "ipratropium 20 mcg inhaler",
+      "code": "RS-004",
+      "price": 2.12,
+      "drug_class": "bronchodilator"
+    },
+    {
+      "item_name": "theophylline 200 mg",
+      "code": "RS-005",
+      "price": 3.16,
+      "drug_class": "bronchodilator"
+    },
+    {
+      "item_name": "theophylline 300 mg",
+      "code": "RS-006",
+      "price": 2.58,
+      "drug_class": "bronchodilator"
+    },
+    {
+      "item_name": "formoterol + budesonide 6+200 mcg",
+      "code": "RS-007",
+      "price": 2.55,
+      "drug_class": "bronchodilator"
+    },
+    {
+      "item_name": "tiotropium 18 mcg",
+      "code": "RS-008",
+      "price": 3.48,
+      "drug_class": "bronchodilator"
+    },
+    {
+      "item_name": "montelukast 10 mg",
+      "code": "RS-009",
+      "price": 3.26,
+      "drug_class": "bronchodilator"
+    },
+    {
+      "item_name": "budesonide 0.5 mg/mL",
+      "code": "CS-001",
+      "price": 2.02,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "budesonide 1 mg/mL",
+      "code": "CS-002",
+      "price": 2.03,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "fluticasone 125 mcg",
+      "code": "CS-003",
+      "price": 2.17,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "fluticasone 250 mcg",
+      "code": "CS-004",
+      "price": 2.16,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "prednisolone 5 mg",
+      "code": "CS-005",
+      "price": 2.01,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "prednisolone 10 mg",
+      "code": "CS-006",
+      "price": 1.78,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "prednisolone 20 mg",
+      "code": "CS-007",
+      "price": 2.19,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "dexamethasone 0.5 mg",
+      "code": "CS-008",
+      "price": 2.92,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "dexamethasone 4 mg",
+      "code": "CS-009",
+      "price": 2.55,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "methylprednisolone 125 mg",
+      "code": "CS-010",
+      "price": 2.86,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "methylprednisolone 500 mg",
+      "code": "CS-011",
+      "price": 2.46,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "hydrocortisone 100 mg",
+      "code": "CS-012",
+      "price": 2.02,
+      "drug_class": "corticosteroid"
+    },
+    {
+      "item_name": "fluconazole 150 mg",
+      "code": "AF-003",
+      "price": 4.73,
+      "drug_class": "antifungal"
+    },
+    {
+      "item_name": "fluconazole 200 mg",
+      "code": "AF-004",
+      "price": 3.2,
+      "drug_class": "antifungal"
+    },
+    {
+      "item_name": "itraconazole 100 mg",
+      "code": "AF-005",
+      "price": 4.0,
+      "drug_class": "antifungal"
+    },
+    {
+      "item_name": "itraconazole 200 mg",
+      "code": "AF-006",
+      "price": 4.4,
+      "drug_class": "antifungal"
+    },
+    {
+      "item_name": "voriconazole 200 mg",
+      "code": "AF-007",
+      "price": 4.82,
+      "drug_class": "antifungal"
+    },
+    {
+      "item_name": "amphotericin b 50 mg",
+      "code": "AF-008",
+      "price": 5.03,
+      "drug_class": "antifungal"
+    },
+    {
+      "item_name": "acyclovir 200 mg",
+      "code": "AV-007",
+      "price": 5.63,
+      "drug_class": "antiviral"
+    },
+    {
+      "item_name": "acyclovir 400 mg",
+      "code": "AV-008",
+      "price": 5.55,
+      "drug_class": "antiviral"
+    },
+    {
+      "item_name": "acyclovir 800 mg",
+      "code": "AV-009",
+      "price": 4.75,
+      "drug_class": "antiviral"
+    },
+    {
+      "item_name": "valacyclovir 500 mg",
+      "code": "AV-010",
+      "price": 5.66,
+      "drug_class": "antiviral"
+    },
+    {
+      "item_name": "valacyclovir 1000 mg",
+      "code": "AV-011",
+      "price": 7.15,
+      "drug_class": "antiviral"
+    },
+    {
+      "item_name": "oseltamivir 75 mg",
+      "code": "AV-012",
+      "price": 6.79,
+      "drug_class": "antiviral"
+    },
+    {
+      "item_name": "cetirizine 10 mg",
+      "code": "AH-004",
+      "price": 0.69,
+      "drug_class": "antihistamine"
+    },
+    {
+      "item_name": "levocetirizine 5 mg",
+      "code": "AH-005",
+      "price": 0.64,
+      "drug_class": "antihistamine"
+    },
+    {
+      "item_name": "fexofenadine 120 mg",
+      "code": "AH-006",
+      "price": 0.87,
+      "drug_class": "antihistamine"
+    },
+    {
+      "item_name": "fexofenadine 180 mg",
+      "code": "AH-007",
+      "price": 0.93,
+      "drug_class": "antihistamine"
+    },
+    {
+      "item_name": "chlorpheniramine 4 mg",
+      "code": "AH-008",
+      "price": 0.78,
+      "drug_class": "antihistamine"
+    },
+    {
+      "item_name": "loratadine 10 mg",
+      "code": "AH-009",
+      "price": 1.03,
+      "drug_class": "antihistamine"
+    },
+    {
+      "item_name": "hydroxyzine 10 mg",
+      "code": "AH-010",
+      "price": 0.99,
+      "drug_class": "antihistamine"
+    },
+    {
+      "item_name": "hydroxyzine 25 mg",
+      "code": "AH-011",
+      "price": 0.95,
+      "drug_class": "antihistamine"
+    },
+    {
+      "item_name": "sertraline 50 mg",
+      "code": "PS-001",
+      "price": 1.44,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "sertraline 100 mg",
+      "code": "PS-002",
+      "price": 1.41,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "fluoxetine 20 mg",
+      "code": "PS-003",
+      "price": 1.23,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "escitalopram 5 mg",
+      "code": "PS-004",
+      "price": 1.46,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "escitalopram 10 mg",
+      "code": "PS-005",
+      "price": 1.7,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "amitriptyline 10 mg",
+      "code": "PS-006",
+      "price": 2.09,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "amitriptyline 25 mg",
+      "code": "PS-007",
+      "price": 1.28,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "venlafaxine 37.5 mg",
+      "code": "PS-008",
+      "price": 1.64,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "venlafaxine 75 mg",
+      "code": "PS-009",
+      "price": 1.86,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "duloxetine 20 mg",
+      "code": "PS-010",
+      "price": 1.4,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "duloxetine 30 mg",
+      "code": "PS-011",
+      "price": 1.93,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "duloxetine 60 mg",
+      "code": "PS-012",
+      "price": 1.72,
+      "drug_class": "antidepressant"
+    },
+    {
+      "item_name": "levetiracetam 250 mg",
+      "code": "NE-001",
+      "price": 1.94,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "levetiracetam 500 mg",
+      "code": "NE-002",
+      "price": 2.52,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "valproate sodium 200 mg",
+      "code": "NE-003",
+      "price": 1.61,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "valproate sodium 500 mg",
+      "code": "NE-004",
+      "price": 2.65,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "carbamazepine 200 mg",
+      "code": "NE-005",
+      "price": 2.68,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "phenytoin 100 mg",
+      "code": "NE-006",
+      "price": 1.75,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "phenytoin 300 mg",
+      "code": "NE-007",
+      "price": 2.2,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "gabapentin 100 mg",
+      "code": "NE-008",
+      "price": 1.85,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "gabapentin 300 mg",
+      "code": "NE-009",
+      "price": 2.94,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "pregabalin 75 mg",
+      "code": "NE-010",
+      "price": 2.33,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "pregabalin 150 mg",
+      "code": "NE-011",
+      "price": 1.67,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "lamotrigine 25 mg",
+      "code": "NE-012",
+      "price": 1.95,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "lamotrigine 50 mg",
+      "code": "NE-013",
+      "price": 2.79,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "lamotrigine 100 mg",
+      "code": "NE-014",
+      "price": 2.24,
+      "drug_class": "antiepileptic"
+    },
+    {
+      "item_name": "dopamine 200 mg/5mL",
+      "code": "VP-001",
+      "price": 13.61,
+      "drug_class": "vasopressor"
+    },
+    {
+      "item_name": "dobutamine 250 mg/20mL",
+      "code": "VP-002",
+      "price": 12.67,
+      "drug_class": "vasopressor"
+    },
+    {
+      "item_name": "clobazam 5 mg",
+      "code": "SD-001",
+      "price": 2.24,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "clobazam 10 mg",
+      "code": "SD-002",
+      "price": 1.83,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "diazepam 5 mg",
+      "code": "SD-003",
+      "price": 2.2,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "diazepam 10 mg",
+      "code": "SD-004",
+      "price": 2.14,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "lorazepam 1 mg",
+      "code": "SD-005",
+      "price": 1.84,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "lorazepam 2 mg",
+      "code": "SD-006",
+      "price": 1.96,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "alprazolam 0.25 mg",
+      "code": "SD-007",
+      "price": 1.73,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "alprazolam 0.5 mg",
+      "code": "SD-008",
+      "price": 2.07,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "zolpidem 5 mg",
+      "code": "SD-009",
+      "price": 1.78,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "zolpidem 10 mg",
+      "code": "SD-010",
+      "price": 2.14,
+      "drug_class": "sedative"
+    },
+    {
+      "item_name": "morphine 10 mg",
+      "code": "CT-001",
+      "price": 3.96,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "morphine 15 mg",
+      "code": "CT-002",
+      "price": 3.4,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "morphine 30 mg",
+      "code": "CT-003",
+      "price": 2.94,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "fentanyl 25 mcg/hr patch",
+      "code": "CT-004",
+      "price": 2.92,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "fentanyl 50 mcg/hr patch",
+      "code": "CT-005",
+      "price": 3.74,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "oxycodone 5 mg",
+      "code": "CT-006",
+      "price": 4.01,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "oxycodone 10 mg",
+      "code": "CT-007",
+      "price": 3.49,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "codeine 15 mg",
+      "code": "CT-008",
+      "price": 3.72,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "codeine 30 mg",
+      "code": "CT-009",
+      "price": 2.98,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "buprenorphine 0.3 mg",
+      "code": "CT-010",
+      "price": 2.56,
+      "drug_class": "controlled"
+    },
+    {
+      "item_name": "tizanidine 2 mg",
+      "code": "MR-001",
+      "price": 1.0,
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "item_name": "tizanidine 4 mg",
+      "code": "MR-002",
+      "price": 0.99,
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "item_name": "baclofen 10 mg",
+      "code": "MR-003",
+      "price": 1.02,
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "item_name": "baclofen 25 mg",
+      "code": "MR-004",
+      "price": 1.18,
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "item_name": "thiocolchicoside 4 mg",
+      "code": "MR-005",
+      "price": 0.9,
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "item_name": "thiocolchicoside 8 mg",
+      "code": "MR-006",
+      "price": 0.96,
+      "drug_class": "muscle_relaxant"
+    },
+    {
+      "item_name": "dicyclomine 10 mg",
+      "code": "AS-001",
+      "price": 0.96,
+      "drug_class": "antispasmodic"
+    },
+    {
+      "item_name": "dicyclomine 20 mg",
+      "code": "AS-002",
+      "price": 0.97,
+      "drug_class": "antispasmodic"
+    },
+    {
+      "item_name": "hyoscine 10 mg",
+      "code": "AS-003",
+      "price": 0.63,
+      "drug_class": "antispasmodic"
+    },
+    {
+      "item_name": "mebeverine 135 mg",
+      "code": "AS-004",
+      "price": 0.81,
+      "drug_class": "antispasmodic"
+    },
+    {
+      "item_name": "drotaverine 40 mg",
+      "code": "AS-005",
+      "price": 0.88,
+      "drug_class": "antispasmodic"
+    },
+    {
+      "item_name": "drotaverine 80 mg",
+      "code": "AS-006",
+      "price": 0.82,
+      "drug_class": "antispasmodic"
+    },
+    {
+      "item_name": "levothyroxine 25 mcg",
+      "code": "TH-001",
+      "price": 0.47,
+      "drug_class": "thyroid"
+    },
+    {
+      "item_name": "levothyroxine 50 mcg",
+      "code": "TH-002",
+      "price": 0.55,
+      "drug_class": "thyroid"
+    },
+    {
+      "item_name": "levothyroxine 75 mcg",
+      "code": "TH-003",
+      "price": 0.72,
+      "drug_class": "thyroid"
+    },
+    {
+      "item_name": "levothyroxine 100 mcg",
+      "code": "TH-004",
+      "price": 0.6,
+      "drug_class": "thyroid"
+    },
+    {
+      "item_name": "carbimazole 5 mg",
+      "code": "TH-005",
+      "price": 0.64,
+      "drug_class": "thyroid"
+    },
+    {
+      "item_name": "sumatriptan 25 mg",
+      "code": "MG-001",
+      "price": 4.9,
+      "drug_class": "migraine"
+    },
+    {
+      "item_name": "sumatriptan 50 mg",
+      "code": "MG-002",
+      "price": 4.68,
+      "drug_class": "migraine"
+    },
+    {
+      "item_name": "rizatriptan 5 mg",
+      "code": "MG-003",
+      "price": 3.73,
+      "drug_class": "migraine"
+    },
+    {
+      "item_name": "rizatriptan 10 mg",
+      "code": "MG-004",
+      "price": 2.81,
+      "drug_class": "migraine"
+    }
+  ],
+  "billing_inputs": [
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #1",
+      "_test_type": "success",
+      "patient_id": "P-1001",
+      "billable_items": [
+        {
+          "item": "warfarin 2 mg",
+          "quantity": 21
+        },
+        {
+          "item": "fexofenadine 120 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #2",
+      "_test_type": "success",
+      "patient_id": "P-1002",
+      "billable_items": [
+        {
+          "item": "flucloxacillin 500 mg",
+          "quantity": 14
+        },
+        {
+          "item": "mebeverine 135 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #3",
+      "_test_type": "success",
+      "patient_id": "P-1003",
+      "billable_items": [
+        {
+          "item": "diazepam 5 mg",
+          "quantity": 14
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #4",
+      "_test_type": "success",
+      "patient_id": "P-1004",
+      "billable_items": [
+        {
+          "item": "lansoprazole 15 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #5",
+      "_test_type": "success",
+      "patient_id": "P-1005",
+      "billable_items": [
+        {
+          "item": "empagliflozin 10 mg",
+          "quantity": 10
+        },
+        {
+          "item": "atorvastatin 20 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #6",
+      "_test_type": "success",
+      "patient_id": "P-1006",
+      "billable_items": [
+        {
+          "item": "amoxicillin 500 mg",
+          "quantity": 6
+        },
+        {
+          "item": "azithromycin 500 mg",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #7",
+      "_test_type": "success",
+      "patient_id": "P-1007",
+      "billable_items": [
+        {
+          "item": "paracetamol 650 mg",
+          "quantity": 5
+        },
+        {
+          "item": "dicyclomine 10 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #8",
+      "_test_type": "success",
+      "patient_id": "P-1008",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 5
+        },
+        {
+          "item": "ofloxacin 200 mg",
+          "quantity": 14
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #9",
+      "_test_type": "success",
+      "patient_id": "P-1009",
+      "billable_items": [
+        {
+          "item": "naproxen 250 mg",
+          "quantity": 21
+        },
+        {
+          "item": "lorazepam 1 mg",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #10",
+      "_test_type": "success",
+      "patient_id": "P-1010",
+      "billable_items": [
+        {
+          "item": "gabapentin 100 mg",
+          "quantity": 9
+        },
+        {
+          "item": "rosuvastatin 20 mg",
+          "quantity": 14
+        },
+        {
+          "item": "clopidogrel 75 mg",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #11",
+      "_test_type": "success",
+      "patient_id": "P-1011",
+      "billable_items": [
+        {
+          "item": "fluticasone 125 mcg",
+          "quantity": 10
+        },
+        {
+          "item": "zolpidem 10 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #12",
+      "_test_type": "success",
+      "patient_id": "P-1012",
+      "billable_items": [
+        {
+          "item": "amphotericin b 50 mg",
+          "quantity": 21
+        },
+        {
+          "item": "montelukast 10 mg",
+          "quantity": 14
+        },
+        {
+          "item": "carbamazepine 200 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #13",
+      "_test_type": "success",
+      "patient_id": "P-1013",
+      "billable_items": [
+        {
+          "item": "domperidone 10 mg",
+          "quantity": 14
+        },
+        {
+          "item": "dicyclomine 20 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #14",
+      "_test_type": "success",
+      "patient_id": "P-1014",
+      "billable_items": [
+        {
+          "item": "budesonide 0.5 mg/ml",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #15",
+      "_test_type": "success",
+      "patient_id": "P-1015",
+      "billable_items": [
+        {
+          "item": "rizatriptan 10 mg",
+          "quantity": 9
+        },
+        {
+          "item": "voriconazole 200 mg",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #16",
+      "_test_type": "success",
+      "patient_id": "P-1016",
+      "billable_items": [
+        {
+          "item": "hydroxyzine 10 mg",
+          "quantity": 15
+        },
+        {
+          "item": "fluticasone 250 mcg",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #17",
+      "_test_type": "success",
+      "patient_id": "P-1017",
+      "billable_items": [
+        {
+          "item": "carbimazole 5 mg",
+          "quantity": 14
+        },
+        {
+          "item": "duloxetine 30 mg",
+          "quantity": 14
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #18",
+      "_test_type": "success",
+      "patient_id": "P-1018",
+      "billable_items": [
+        {
+          "item": "chlorpheniramine 4 mg",
+          "quantity": 14
+        },
+        {
+          "item": "metoclopramide 10 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #19",
+      "_test_type": "success",
+      "patient_id": "P-1019",
+      "billable_items": [
+        {
+          "item": "diclofenac 50 mg",
+          "quantity": 7
+        },
+        {
+          "item": "cetirizine 10 mg",
+          "quantity": 3
+        },
+        {
+          "item": "montelukast 10 mg",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #20",
+      "_test_type": "success",
+      "patient_id": "P-1020",
+      "billable_items": [
+        {
+          "item": "clonidine 100 mcg",
+          "quantity": 5
+        },
+        {
+          "item": "amlodipine 10 mg",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #21",
+      "_test_type": "success",
+      "patient_id": "P-1021",
+      "billable_items": [
+        {
+          "item": "olmesartan 20 mg",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #22",
+      "_test_type": "success",
+      "patient_id": "P-1022",
+      "billable_items": [
+        {
+          "item": "fluticasone 125 mcg",
+          "quantity": 7
+        },
+        {
+          "item": "clonidine 100 mcg",
+          "quantity": 10
+        },
+        {
+          "item": "atorvastatin 20 mg",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #23",
+      "_test_type": "success",
+      "patient_id": "P-1023",
+      "billable_items": [
+        {
+          "item": "azithromycin 500 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #24",
+      "_test_type": "success",
+      "patient_id": "P-1024",
+      "billable_items": [
+        {
+          "item": "paracetamol 650 mg",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #25",
+      "_test_type": "success",
+      "patient_id": "P-1025",
+      "billable_items": [
+        {
+          "item": "lamotrigine 100 mg",
+          "quantity": 9
+        },
+        {
+          "item": "amphotericin b 50 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #26",
+      "_test_type": "success",
+      "patient_id": "P-1026",
+      "billable_items": [
+        {
+          "item": "escitalopram 5 mg",
+          "quantity": 21
+        },
+        {
+          "item": "moxifloxacin 400 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #27",
+      "_test_type": "success",
+      "patient_id": "P-1027",
+      "billable_items": [
+        {
+          "item": "telmisartan + hydrochlorothiazide 40+12.5 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #28",
+      "_test_type": "success",
+      "patient_id": "P-1028",
+      "billable_items": [
+        {
+          "item": "domperidone 10 mg",
+          "quantity": 6
+        },
+        {
+          "item": "amlodipine 5 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #29",
+      "_test_type": "success",
+      "patient_id": "P-1029",
+      "billable_items": [
+        {
+          "item": "levothyroxine 50 mcg",
+          "quantity": 14
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #30",
+      "_test_type": "success",
+      "patient_id": "P-1030",
+      "billable_items": [
+        {
+          "item": "doxycycline 100 mg",
+          "quantity": 9
+        },
+        {
+          "item": "atenolol 25 mg",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #31",
+      "_test_type": "success",
+      "patient_id": "P-1031",
+      "billable_items": [
+        {
+          "item": "escitalopram 10 mg",
+          "quantity": 6
+        },
+        {
+          "item": "ipratropium 20 mcg inhaler",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #32",
+      "_test_type": "success",
+      "patient_id": "P-1032",
+      "billable_items": [
+        {
+          "item": "prednisolone 10 mg",
+          "quantity": 7
+        },
+        {
+          "item": "ceftriaxone 1g",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #33",
+      "_test_type": "success",
+      "patient_id": "P-1033",
+      "billable_items": [
+        {
+          "item": "levofloxacin 500 mg",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #34",
+      "_test_type": "success",
+      "patient_id": "P-1034",
+      "billable_items": [
+        {
+          "item": "atenolol 25 mg",
+          "quantity": 5
+        },
+        {
+          "item": "voriconazole 200 mg",
+          "quantity": 6
+        },
+        {
+          "item": "levetiracetam 500 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #35",
+      "_test_type": "success",
+      "patient_id": "P-1035",
+      "billable_items": [
+        {
+          "item": "pantoprazole 40 mg",
+          "quantity": 14
+        },
+        {
+          "item": "moxifloxacin 400 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #36",
+      "_test_type": "success",
+      "patient_id": "P-1036",
+      "billable_items": [
+        {
+          "item": "baclofen 25 mg",
+          "quantity": 9
+        },
+        {
+          "item": "metoclopramide 10 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #37",
+      "_test_type": "success",
+      "patient_id": "P-1037",
+      "billable_items": [
+        {
+          "item": "itraconazole 100 mg",
+          "quantity": 21
+        },
+        {
+          "item": "salbutamol 4 mg",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #38",
+      "_test_type": "success",
+      "patient_id": "P-1038",
+      "billable_items": [
+        {
+          "item": "dexamethasone 4 mg",
+          "quantity": 3
+        },
+        {
+          "item": "atenolol 25 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #39",
+      "_test_type": "success",
+      "patient_id": "P-1039",
+      "billable_items": [
+        {
+          "item": "flucloxacillin 500 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #40",
+      "_test_type": "success",
+      "patient_id": "P-1040",
+      "billable_items": [
+        {
+          "item": "loratadine 10 mg",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #41",
+      "_test_type": "success",
+      "patient_id": "P-1041",
+      "billable_items": [
+        {
+          "item": "doxycycline 100 mg",
+          "quantity": 14
+        },
+        {
+          "item": "nifedipine 20 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #42",
+      "_test_type": "success",
+      "patient_id": "P-1042",
+      "billable_items": [
+        {
+          "item": "loratadine 10 mg",
+          "quantity": 6
+        },
+        {
+          "item": "gabapentin 100 mg",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #43",
+      "_test_type": "success",
+      "patient_id": "P-1043",
+      "billable_items": [
+        {
+          "item": "hydrocortisone 100 mg",
+          "quantity": 5
+        },
+        {
+          "item": "metformin 500 mg",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #44",
+      "_test_type": "success",
+      "patient_id": "P-1044",
+      "billable_items": [
+        {
+          "item": "insulin glargine 100 iu/ml",
+          "quantity": 10
+        },
+        {
+          "item": "diclofenac 50 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #45",
+      "_test_type": "success",
+      "patient_id": "P-1045",
+      "billable_items": [
+        {
+          "item": "pioglitazone 30 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #46",
+      "_test_type": "success",
+      "patient_id": "P-1046",
+      "billable_items": [
+        {
+          "item": "cefixime 200 mg",
+          "quantity": 21
+        },
+        {
+          "item": "dapagliflozin 10 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #47",
+      "_test_type": "success",
+      "patient_id": "P-1047",
+      "billable_items": [
+        {
+          "item": "sulfamethoxazole + trimethoprim 400+80 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #48",
+      "_test_type": "success",
+      "patient_id": "P-1048",
+      "billable_items": [
+        {
+          "item": "atorvastatin 40 mg",
+          "quantity": 15
+        },
+        {
+          "item": "roxithromycin 150 mg",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #49",
+      "_test_type": "success",
+      "patient_id": "P-1049",
+      "billable_items": [
+        {
+          "item": "budesonide 0.5 mg/ml",
+          "quantity": 9
+        },
+        {
+          "item": "telmisartan 80 mg",
+          "quantity": 15
+        },
+        {
+          "item": "amlodipine 5 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #50",
+      "_test_type": "success",
+      "patient_id": "P-1050",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 3
+        },
+        {
+          "item": "empagliflozin 10 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #51",
+      "_test_type": "success",
+      "patient_id": "P-1051",
+      "billable_items": [
+        {
+          "item": "losartan 50 mg",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #52",
+      "_test_type": "success",
+      "patient_id": "P-1052",
+      "billable_items": [
+        {
+          "item": "tramadol 50 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #53",
+      "_test_type": "success",
+      "patient_id": "P-1053",
+      "billable_items": [
+        {
+          "item": "levetiracetam 250 mg",
+          "quantity": 5
+        },
+        {
+          "item": "ramipril 5 mg",
+          "quantity": 14
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #54",
+      "_test_type": "success",
+      "patient_id": "P-1054",
+      "billable_items": [
+        {
+          "item": "mebeverine 135 mg",
+          "quantity": 5
+        },
+        {
+          "item": "rosuvastatin 20 mg",
+          "quantity": 14
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #55",
+      "_test_type": "success",
+      "patient_id": "P-1055",
+      "billable_items": [
+        {
+          "item": "glimepiride 1 mg",
+          "quantity": 10
+        },
+        {
+          "item": "ofloxacin 200 mg",
+          "quantity": 14
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #56",
+      "_test_type": "success",
+      "patient_id": "P-1056",
+      "billable_items": [
+        {
+          "item": "metformin 500 mg",
+          "quantity": 15
+        },
+        {
+          "item": "olmesartan 20 mg",
+          "quantity": 21
+        },
+        {
+          "item": "cefuroxime 500 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #57",
+      "_test_type": "success",
+      "patient_id": "P-1057",
+      "billable_items": [
+        {
+          "item": "zolpidem 5 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #58",
+      "_test_type": "success",
+      "patient_id": "P-1058",
+      "billable_items": [
+        {
+          "item": "levofloxacin 500 mg",
+          "quantity": 10
+        },
+        {
+          "item": "cefixime 200 mg",
+          "quantity": 9
+        },
+        {
+          "item": "metformin 850 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #59",
+      "_test_type": "success",
+      "patient_id": "P-1059",
+      "billable_items": [
+        {
+          "item": "levocetirizine 5 mg",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "_scenario": "HAPPY PATH — Standard discharge #60",
+      "_test_type": "success",
+      "patient_id": "P-1060",
+      "billable_items": [
+        {
+          "item": "ramipril 5 mg",
+          "quantity": 14
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #1",
+      "_test_type": "success",
+      "patient_id": "P-1061",
+      "billable_items": [
+        {
+          "item": "amoxicillin + clavulanate 625 mg",
+          "quantity": 10
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #2",
+      "_test_type": "success",
+      "patient_id": "P-1062",
+      "billable_items": [
+        {
+          "item": "cefixime 200 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #3",
+      "_test_type": "success",
+      "patient_id": "P-1063",
+      "billable_items": [
+        {
+          "item": "ranitidine 150 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #4",
+      "_test_type": "success",
+      "patient_id": "P-1064",
+      "billable_items": [
+        {
+          "item": "diclofenac 50 mg",
+          "quantity": 10
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #5",
+      "_test_type": "success",
+      "patient_id": "P-1065",
+      "billable_items": [
+        {
+          "item": "metformin 500 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #6",
+      "_test_type": "success",
+      "patient_id": "P-1066",
+      "billable_items": [
+        {
+          "item": "amlodipine 5 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #7",
+      "_test_type": "success",
+      "patient_id": "P-1067",
+      "billable_items": [
+        {
+          "item": "losartan 25 mg",
+          "quantity": 10
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #8",
+      "_test_type": "success",
+      "patient_id": "P-1068",
+      "billable_items": [
+        {
+          "item": "azithromycin 250 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #9",
+      "_test_type": "success",
+      "patient_id": "P-1069",
+      "billable_items": [
+        {
+          "item": "prednisolone 5 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #10",
+      "_test_type": "success",
+      "patient_id": "P-1070",
+      "billable_items": [
+        {
+          "item": "pantoprazole 20 mg",
+          "quantity": 10
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #11",
+      "_test_type": "success",
+      "patient_id": "P-1071",
+      "billable_items": [
+        {
+          "item": "amoxicillin + clavulanate 625 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #12",
+      "_test_type": "success",
+      "patient_id": "P-1072",
+      "billable_items": [
+        {
+          "item": "cefixime 200 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #13",
+      "_test_type": "success",
+      "patient_id": "P-1073",
+      "billable_items": [
+        {
+          "item": "ranitidine 150 mg",
+          "quantity": 10
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #14",
+      "_test_type": "success",
+      "patient_id": "P-1074",
+      "billable_items": [
+        {
+          "item": "diclofenac 50 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #15",
+      "_test_type": "success",
+      "patient_id": "P-1075",
+      "billable_items": [
+        {
+          "item": "metformin 500 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #16",
+      "_test_type": "success",
+      "patient_id": "P-1076",
+      "billable_items": [
+        {
+          "item": "amlodipine 5 mg",
+          "quantity": 10
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #17",
+      "_test_type": "success",
+      "patient_id": "P-1077",
+      "billable_items": [
+        {
+          "item": "losartan 25 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #18",
+      "_test_type": "success",
+      "patient_id": "P-1078",
+      "billable_items": [
+        {
+          "item": "azithromycin 250 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #19",
+      "_test_type": "success",
+      "patient_id": "P-1079",
+      "billable_items": [
+        {
+          "item": "prednisolone 5 mg",
+          "quantity": 10
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "_scenario": "OUT-OF-STOCK — Requires alternative suggestion #20",
+      "_test_type": "success",
+      "patient_id": "P-1080",
+      "billable_items": [
+        {
+          "item": "pantoprazole 20 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #1",
+      "_test_type": "failure",
+      "patient_id": "P-1096",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 9
+        },
+        {
+          "item": "Consultation",
+          "diagnosis": "Pneumonia",
+          "quantity": 1
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #2",
+      "_test_type": "failure",
+      "patient_id": "P-1097",
+      "billable_items": [
+        {
+          "item": "clinical_review",
+          "quantity": 1
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #3",
+      "_test_type": "failure",
+      "patient_id": "P-1098",
+      "billable_items": [
+        {
+          "item": "amoxicillin + clavulanate 1g",
+          "quantity": 10
+        },
+        {
+          "item": "Diagnosis: UTI",
+          "quantity": 1
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #4",
+      "_test_type": "failure",
+      "patient_id": "P-1099",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 6,
+          "clinical_notes": "Patient has history of liver disease"
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #5",
+      "_test_type": "failure",
+      "patient_id": "P-1100",
+      "billable_items": [
+        {
+          "item": "discharge_summary_clinical",
+          "quantity": 1
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #6",
+      "_test_type": "failure",
+      "patient_id": "P-1101",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 9
+        },
+        {
+          "item": "Consultation",
+          "diagnosis": "Pneumonia",
+          "quantity": 1
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #7",
+      "_test_type": "failure",
+      "patient_id": "P-1102",
+      "billable_items": [
+        {
+          "item": "clinical_review",
+          "quantity": 1
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #8",
+      "_test_type": "failure",
+      "patient_id": "P-1103",
+      "billable_items": [
+        {
+          "item": "amoxicillin + clavulanate 1g",
+          "quantity": 10
+        },
+        {
+          "item": "Diagnosis: UTI",
+          "quantity": 1
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #9",
+      "_test_type": "failure",
+      "patient_id": "P-1104",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 6,
+          "clinical_notes": "Patient has history of liver disease"
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "PHI LEAKAGE — Clinical data in billing payload #10",
+      "_test_type": "failure",
+      "patient_id": "P-1105",
+      "billable_items": [
+        {
+          "item": "discharge_summary_clinical",
+          "quantity": 1
+        }
+      ],
+      "_expected_output": {
+        "error": "PHI LEAKAGE DETECTED: Clinical data found in billing payload. Request rejected."
+      }
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1106",
+      "billable_items": [
+        {
+          "item": "amoxicillin + clavulanate 625 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1107",
+      "billable_items": [
+        {
+          "item": "amoxicillin 500 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1108",
+      "billable_items": [
+        {
+          "item": "amoxicillin 500 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #4",
+      "_test_type": "edge_case",
+      "patient_id": "P-1109",
+      "billable_items": [
+        {
+          "item": "ampicillin 500 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — SAFE prescription #5",
+      "_test_type": "edge_case",
+      "patient_id": "P-1110",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #6",
+      "_test_type": "edge_case",
+      "patient_id": "P-1111",
+      "billable_items": [
+        {
+          "item": "sulfamethoxazole + trimethoprim 400+80 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #7",
+      "_test_type": "edge_case",
+      "patient_id": "P-1112",
+      "billable_items": [
+        {
+          "item": "sulfamethoxazole + trimethoprim 400+80 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #8",
+      "_test_type": "edge_case",
+      "patient_id": "P-1113",
+      "billable_items": [
+        {
+          "item": "aspirin 75 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #9",
+      "_test_type": "edge_case",
+      "patient_id": "P-1114",
+      "billable_items": [
+        {
+          "item": "aspirin + clopidogrel 75+75 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #10",
+      "_test_type": "edge_case",
+      "patient_id": "P-1115",
+      "billable_items": [
+        {
+          "item": "ibuprofen 400 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #11",
+      "_test_type": "edge_case",
+      "patient_id": "P-1116",
+      "billable_items": [
+        {
+          "item": "diclofenac 50 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #12",
+      "_test_type": "edge_case",
+      "patient_id": "P-1117",
+      "billable_items": [
+        {
+          "item": "amoxicillin + clavulanate 1g",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #13",
+      "_test_type": "edge_case",
+      "patient_id": "P-1118",
+      "billable_items": [
+        {
+          "item": "ceftriaxone 1g",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #14",
+      "_test_type": "edge_case",
+      "patient_id": "P-1119",
+      "billable_items": [
+        {
+          "item": "codeine 30 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "ALLERGY CONFLICT — UNSAFE prescription #15",
+      "_test_type": "edge_case",
+      "patient_id": "P-1120",
+      "billable_items": [
+        {
+          "item": "ibuprofen + paracetamol 400+325 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1121",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 9
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1122",
+      "billable_items": [
+        {
+          "item": "paracetamol 650 mg",
+          "quantity": 9
+        },
+        {
+          "item": "paracetamol 650 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1123",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 9
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #4",
+      "_test_type": "edge_case",
+      "patient_id": "P-1124",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 9
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #5",
+      "_test_type": "edge_case",
+      "patient_id": "P-1125",
+      "billable_items": [
+        {
+          "item": "ciprofloxacin 500 mg",
+          "quantity": 9
+        },
+        {
+          "item": "ciprofloxacin 500 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #6",
+      "_test_type": "edge_case",
+      "patient_id": "P-1126",
+      "billable_items": [
+        {
+          "item": "azithromycin 500 mg",
+          "quantity": 9
+        },
+        {
+          "item": "azithromycin 500 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #7",
+      "_test_type": "edge_case",
+      "patient_id": "P-1127",
+      "billable_items": [
+        {
+          "item": "atorvastatin 20 mg",
+          "quantity": 9
+        },
+        {
+          "item": "atorvastatin 20 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #8",
+      "_test_type": "edge_case",
+      "patient_id": "P-1128",
+      "billable_items": [
+        {
+          "item": "clopidogrel 75 mg",
+          "quantity": 9
+        },
+        {
+          "item": "clopidogrel 75 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — FALSE POSITIVE (different generics) #9",
+      "_test_type": "edge_case",
+      "patient_id": "P-1129",
+      "billable_items": [
+        {
+          "item": "omeprazole 20 mg",
+          "quantity": 9
+        },
+        {
+          "item": "pantoprazole 20 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "DUPLICATE BILLING — TRUE duplicate #10",
+      "_test_type": "edge_case",
+      "patient_id": "P-1130",
+      "billable_items": [
+        {
+          "item": "ibuprofen 400 mg",
+          "quantity": 9
+        },
+        {
+          "item": "ibuprofen 400 mg",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "_scenario": "SIMILAR DRUG NAMES — dopamine vs dobutamine confusion trap #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1131",
+      "billable_items": [
+        {
+          "item": "dopamine 200 mg/5ml",
+          "quantity": 10
+        },
+        {
+          "item": "dobutamine 250 mg/20ml",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "SIMILAR DRUG NAMES — losartan vs losartan + hydrochlorothiazide confusion trap #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1132",
+      "billable_items": [
+        {
+          "item": "losartan + hydrochlorothiazide 50+12.5 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "SIMILAR DRUG NAMES — clopidogrel vs aspirin confusion trap #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1133",
+      "billable_items": [
+        {
+          "item": "clopidogrel 75 mg",
+          "quantity": 10
+        },
+        {
+          "item": "aspirin 75 mg",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #1",
+      "_test_type": "edge_case",
+      "patient_id": "P-1136",
+      "billable_items": [
+        {
+          "item": "morphine 10 mg",
+          "quantity": 6
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1137",
+      "billable_items": [
+        {
+          "item": "fentanyl 25 mcg/hr patch",
+          "quantity": 6
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1138",
+      "billable_items": [
+        {
+          "item": "oxycodone 5 mg",
+          "quantity": 6
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #4",
+      "_test_type": "edge_case",
+      "patient_id": "P-1139",
+      "billable_items": [
+        {
+          "item": "codeine 15 mg",
+          "quantity": 6
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "CONTROLLED SUBSTANCE — Billing must NOT see full clinical details #5",
+      "_test_type": "edge_case",
+      "patient_id": "P-1140",
+      "billable_items": [
+        {
+          "item": "buprenorphine 0.3 mg",
+          "quantity": 6
+        },
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "_scenario": "MISSING DATA — Malformed medication record #2",
+      "_test_type": "edge_case",
+      "patient_id": "P-1142",
+      "billable_items": [
+        {
+          "item": "amoxicillin + clavulanate 625 mg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_scenario": "MISSING DATA — Malformed medication record #3",
+      "_test_type": "edge_case",
+      "patient_id": "P-1143",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_scenario": "MISSING DATA — Malformed medication record #5",
+      "_test_type": "edge_case",
+      "patient_id": "P-1145",
+      "billable_items": [
+        {
+          "item": "paracetamol 500 mg",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "phi_boundary_rules": {
+    "blocked_keywords": [
+      "diagnosis",
+      "clinical"
+    ],
+    "detection_method": "if 'diagnosis' in str(item).lower() or 'clinical' in str(item).lower()",
+    "safe_fields": [
+      "item",
+      "quantity"
+    ],
+    "action_on_violation": "Entire invoice rejected"
+  },
+  "rbac_permissions": {
+    "create_invoice": {
+      "allowed": [
+        "billing",
+        "discharge"
+      ],
+      "denied": [
+        "clinical",
+        "pharmacy",
+        "admin"
+      ]
+    },
+    "validate_invoice": {
+      "allowed": [
+        "billing",
+        "discharge"
+      ],
+      "denied": [
+        "clinical",
+        "pharmacy",
+        "admin"
+      ]
+    },
+    "get_billing_code": {
+      "allowed": [
+        "billing",
+        "discharge"
+      ],
+      "denied": [
+        "clinical",
+        "pharmacy",
+        "admin"
+      ]
+    }
+  },
+  "metadata": {
+    "total_catalog_items": 263,
+    "total_billing_inputs": 126
+  }
+}

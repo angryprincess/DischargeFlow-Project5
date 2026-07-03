@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReadyGo™ | Autonomous Patient Discharge Validator</title>
+  <meta name="description" content="Validate patient hospital discharge readiness autonomously and securely with multi-server MCP routing.">
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Design Tokens & Theme Variables */
+    :root {
+      --bg-main: #090d16;
+      --bg-card: rgba(17, 24, 39, 0.7);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --text-primary: #f3f4f6;
+      --text-secondary: #9ca3af;
+      --text-muted: #6b7280;
+      
+      /* Accent Colors */
+      --yellow-glow: #eab308;
+      --yellow-hover: #ca8a04;
+      --ready-green: #10b981;
+      --ready-glow: rgba(16, 185, 129, 0.15);
+      --not-ready-red: #ef4444;
+      --not-ready-glow: rgba(239, 68, 68, 0.15);
+      --primary-blue: #3b82f6;
+      --accent-purple: #8b5cf6;
+      
+      /* Fonts */
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-mono: 'Fira Code', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      transition: all 0.25s ease;
+    }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 40%);
+    }
+
+    /* Header styling */
+    header {
+      border-bottom: 1px solid var(--border-color);
+      padding: 1.25rem 2rem;
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background-color: rgba(9, 13, 22, 0.8);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-badge {
+      background: linear-gradient(135deg, var(--yellow-glow) 0%, var(--primary-blue) 100%);
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      color: #000;
+      font-size: 1.1rem;
+      box-shadow: 0 0 15px rgba(234, 179, 8, 0.3);
+    }
+
+    header h1 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      background: linear-gradient(to right, #ffffff, #9ca3af);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .system-status {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      font-size: 0.85rem;
+    }
+
+    .status-pill {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255, 255, 255, 0.03);
+      padding: 0.35rem 0.75rem;
+      border-radius: 9999px;
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+    }
+
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--ready-green);
+      box-shadow: 0 0 8px var(--ready-green);
+    }
+
+    /* Main layout container */
+    main {
+      flex: 1;
+      max-width: 1200px;
+      width: 100%;
+      margin: 2.5rem auto;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: 350px 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 900px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Left Sidebar: Controls & Patient Info */
+    .control-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2rem;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+      height: fit-content;
+    }
+
+    .panel-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.75rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    label {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+
+    /* Styled Select Dropdown */
+    .custom-select {
+      appearance: none;
+      background-color: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      cursor: pointer;
+      outline: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%239ca3af'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      background-size: 1.25rem;
+    }
+
+    .custom-select:focus {
+      border-color: var(--yellow-glow);
+      box-shadow: 0 0 10px rgba(234, 179, 8, 0.15);
+    }
+
+    /* Yellow Button */
+    .check-btn {
+      background-color: var(--yellow-glow);
+      color: #0f172a;
+      border: none;
+      border-radius: 8px;
+      padding: 0.9rem 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      box-shadow: 0 4px 15px rgba(234, 179, 8, 0.2);
+    }
+
+    .check-btn:hover {
+      background-color: var(--yellow-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(234, 179, 8, 0.35);
+    }
+
+    .check-btn:active {
+      transform: translateY(0);
+    }
+
+    /* Patient Details Card inside Sidebar */
+    .patient-summary {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      border-radius: 8px;
+      padding: 1rem;
+    }
+
+    .patient-summary-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+      font-size: 0.85rem;
+    }
+
+    .patient-summary-row:last-child {
+      margin-bottom: 0;
+    }
+
+    .summary-label {
+      color: var(--text-muted);
+    }
+
+    .summary-val {
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+
+    /* Right Main Panel: Terminal & Status Output */
+    .execution-view {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    /* MCP Server Badges Visualizer */
+    .mcp-servers-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .mcp-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .mcp-card.active-ping {
+      border-color: rgba(59, 130, 246, 0.5);
+      background: rgba(59, 130, 246, 0.05);
+      box-shadow: 0 0 15px rgba(59, 130, 246, 0.1);
+    }
+
+    .mcp-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.04);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .mcp-details {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mcp-name {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .mcp-status {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    .active-ping .mcp-status {
+      color: var(--primary-blue);
+      font-weight: 500;
+    }
+
+    /* Agent Reasoning Console Terminal */
+    .terminal-container {
+      background: #07090e;
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      height: 380px;
+      box-shadow: inset 0 2px 8px rgba(0,0,0,0.8);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .terminal-header {
+      background: #0f131a;
+      border-bottom: 1px solid var(--border-color);
+      padding: 0.75rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .terminal-dots {
+      display: flex;
+      gap: 0.35rem;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .dot.red { background-color: #ef4444; }
+    .dot.yellow { background-color: #f59e0b; }
+    .dot.green { background-color: #10b981; }
+
+    .terminal-title {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      letter-spacing: 0.05em;
+    }
+
+    .terminal-body {
+      padding: 1.5rem;
+      flex: 1;
+      overflow-y: auto;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: var(--text-primary);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    /* Custom scrollbar for terminal */
+    .terminal-body::-webkit-scrollbar {
+      width: 6px;
+    }
+    .terminal-body::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .terminal-body::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 9999px;
+    }
+
+    .terminal-line {
+      display: flex;
+      gap: 0.5rem;
+      animation: fadeInLine 0.3s forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeInLine {
+      to { opacity: 1; }
+    }
+
+    .prompt-symbol {
+      color: var(--yellow-glow);
+      user-select: none;
+    }
+
+    .agent-self {
+      color: #3b82f6;
+      font-weight: 700;
+    }
+
+    .privacy-alert {
+      color: #fbbf24;
+      background: rgba(251, 191, 36, 0.05);
+      border-left: 2px solid #fbbf24;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .mcp-call {
+      color: var(--accent-purple);
+      font-weight: 500;
+    }
+
+    /* Discharge Status Card (Result Container) */
+    .status-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2rem;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      position: relative;
+      overflow: hidden;
+      opacity: 0.4; /* dim before run */
+    }
+
+    .status-container.activated {
+      opacity: 1;
+    }
+
+    .status-badge-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 1rem;
+    }
+
+    .status-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .status-indicator {
+      font-size: 1rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.5rem 1.25rem;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.5s ease;
+    }
+
+    /* Initial state neutral */
+    .status-indicator.neutral {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-color);
+    }
+
+    /* Ready State */
+    .status-container.ready-state {
+      border-color: rgba(16, 185, 129, 0.4);
+      box-shadow: 0 0 25px rgba(16, 185, 129, 0.1);
+    }
+
+    .status-container.ready-state .status-indicator {
+      background-color: var(--ready-glow);
+      color: var(--ready-green);
+      border: 1px solid var(--ready-green);
+      box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+    }
+
+    /* Not Ready State */
+    .status-container.not-ready-state {
+      border-color: rgba(239, 68, 68, 0.4);
+      box-shadow: 0 0 25px rgba(239, 68, 68, 0.1);
+    }
+
+    .status-container.not-ready-state .status-indicator {
+      background-color: var(--not-ready-glow);
+      color: var(--not-ready-red);
+      border: 1px solid var(--not-ready-red);
+      box-shadow: 0 0 15px rgba(239, 68, 68, 0.2);
+    }
+
+    .status-details {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+    }
+
+    .status-details ul {
+      margin-top: 0.5rem;
+      margin-left: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    /* Decorative footer */
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: auto;
+    }
+
+    /* Typing cursor effect */
+    .cursor-active::after {
+      content: '█';
+      animation: blink 0.8s infinite;
+      color: var(--yellow-glow);
+      margin-left: 2px;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <div class="logo-badge">R</div>
+      <div>
+        <h1>ReadyGo™ | Autonomous Patient Discharge Validator</h1>
+      </div>
+    </div>
+    <div class="system-status">
+      <div class="status-pill">
+        <span class="status-dot"></span>
+        <span>ReadyGo Protocol v2.4</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Left Sidebar: Controls -->
+    <section class="control-panel">
+      <h2 class="panel-title">Configuration</h2>
+      
+      <div class="form-group">
+        <label for="patient-select">Select Patient Reference ID</label>
+        <select id="patient-select" class="custom-select">
+          <option value="">Loading patients...</option>
+        </select>
+      </div>
+
+      <div class="patient-summary">
+        <div class="patient-summary-row">
+          <span class="summary-label">Scenario:</span>
+          <span class="summary-val" id="summary-scenario">-</span>
+        </div>
+        <div class="patient-summary-row">
+          <span class="summary-label">Expected Type:</span>
+          <span class="summary-val" id="summary-test-type">-</span>
+        </div>
+      </div>
+
+      <button id="check-status-btn" class="check-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+        </svg>
+        Check Discharge Status
+      </button>
+    </section>
+
+    <!-- Right Content Area: Terminal & Output -->
+    <section class="execution-view">
+      
+      <!-- Connected MCP Servers Status Bar -->
+      <div class="mcp-servers-grid">
+        <div id="mcp-clinical" class="mcp-card">
+          <div class="mcp-icon">🩺</div>
+          <div class="mcp-details">
+            <span class="mcp-name">Clinical Records MCP</span>
+            <span class="mcp-status">Ready</span>
+          </div>
+        </div>
+        <div id="mcp-billing" class="mcp-card">
+          <div class="mcp-icon">💳</div>
+          <div class="mcp-details">
+            <span class="mcp-name">Billing & Ins. MCP</span>
+            <span class="mcp-status">Ready</span>
+          </div>
+        </div>
+        <div id="mcp-safety" class="mcp-card">
+          <div class="mcp-icon">📋</div>
+          <div class="mcp-details">
+            <span class="mcp-name">Safety Checklist MCP</span>
+            <span class="mcp-status">Ready</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Agent Terminal -->
+      <div class="terminal-container">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <span class="terminal-title">AGENT REASONING CONSOLE</span>
+          <span class="terminal-title" id="terminal-state" style="color: var(--text-muted);">IDLE</span>
+        </div>
+        <div id="reasoning-output" class="terminal-body">
+          <div class="terminal-line text-muted">Select a patient and click "Check Discharge Status" to begin autonomous evaluation.</div>
+        </div>
+      </div>
+
+      <!-- Discharge Status Box -->
+      <div id="discharge-status-card" class="status-container">
+        <div class="status-badge-container">
+          <span class="status-title">Discharge Evaluation Outcome</span>
+          <span id="outcome-badge" class="status-indicator neutral">Awaiting Analysis</span>
+        </div>
+        <div id="outcome-details" class="status-details">
+          Please run the autonomous agent validator using the yellow action button to generate the final verified outcome.
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    ReadyGo™ discharge verification uses zero-trust privacy routing and context-restricted Model Context Protocol (MCP) interactions. Compliance Standard: HIPAA/HITECH.
+  </footer>
+
+  <script>
+    // UI Elements
+    const patientSelect = document.getElementById('patient-select');
+    const checkBtn = document.getElementById('check-status-btn');
+    const reasoningOutput = document.getElementById('reasoning-output');
+    const terminalState = document.getElementById('terminal-state');
+    const statusCard = document.getElementById('discharge-status-card');
+    const outcomeBadge = document.getElementById('outcome-badge');
+    const outcomeDetails = document.getElementById('outcome-details');
+
+    const summaryScenario = document.getElementById('summary-scenario');
+    const summaryTestType = document.getElementById('summary-test-type');
+
+    let patientsList = [];
+
+    // Fetch patients and populate dropdown
+    async function loadPatients() {
+      try {
+        const res = await fetch('/api/patients');
+        const data = await res.json();
+        patientsList = data.patients || [];
+        
+        patientSelect.innerHTML = '';
+        if (patientsList.length === 0) {
+          const option = document.createElement('option');
+          option.value = "";
+          option.textContent = "No patients available";
+          patientSelect.appendChild(option);
+          return;
+        }
+
+        patientsList.forEach(p => {
+          const option = document.createElement('option');
+          option.value = p.patient_id;
+          option.textContent = `${p.patient_id} (${p.scenario})`;
+          patientSelect.appendChild(option);
+        });
+
+        // Default to P-1007 if present, else first
+        const defaultPt = patientsList.find(p => p.patient_id === 'P-1007') || patientsList[0];
+        if (defaultPt) {
+          patientSelect.value = defaultPt.patient_id;
+        }
+        updateMetadata();
+      } catch (e) {
+        console.error("Error loading patients:", e);
+        summaryScenario.textContent = "Error loading database";
+        summaryTestType.textContent = "Error";
+        summaryTestType.style.color = "var(--not-ready-red)";
+      }
+    }
+
+    // Update patient quick summary metadata when select changes
+    function updateMetadata() {
+      const patientId = patientSelect.value;
+      const patient = patientsList.find(p => p.patient_id === patientId);
+      if (patient) {
+        summaryScenario.textContent = patient.scenario;
+        summaryTestType.textContent = patient.test_type.toUpperCase();
+        if (patient.test_type === 'success') {
+          summaryTestType.style.color = 'var(--ready-green)';
+        } else {
+          summaryTestType.style.color = 'var(--not-ready-red)';
+        }
+      }
+    }
+
+    patientSelect.addEventListener('change', updateMetadata);
+
+    // Load patients immediately
+    loadPatients();
+
+    // Simulation Runner
+    checkBtn.addEventListener('click', async () => {
+      const selectedId = patientSelect.value;
+      if (!selectedId) return;
+      
+      // Reset UI
+      checkBtn.disabled = true;
+      checkBtn.style.opacity = '0.5';
+      reasoningOutput.innerHTML = '';
+      terminalState.textContent = 'RUNNING...';
+      terminalState.style.color = 'var(--yellow-glow)';
+      
+      // Reset status container state
+      statusCard.className = 'status-container';
+      outcomeBadge.className = 'status-indicator neutral';
+      outcomeBadge.textContent = 'Analyzing...';
+      outcomeDetails.innerHTML = 'Evaluating clinical parameters, insurance clearances, and privacy vectors...';
+      
+      // Clear active styling on all MCP cards
+      document.querySelectorAll('.mcp-card').forEach(card => card.classList.remove('active-ping'));
+
+      try {
+        const response = await fetch('/api/discharge', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ patient_id: selectedId })
+        });
+        
+        if (!response.ok) {
+          throw new Error('Server responded with an error');
+        }
+
+        const data = await response.json();
+        const logs = data.logs || [];
+
+        // Process logs sequentially to simulate reasoning visualization
+        for (let i = 0; i < logs.length; i++) {
+          const log = logs[i];
+          
+          // 400ms delay per log to visualize progress
+          await new Promise(resolve => setTimeout(resolve, 400));
+
+          // Highlight the corresponding MCP server badge
+          document.querySelectorAll('.mcp-card').forEach(card => card.classList.remove('active-ping'));
+          if (log.role === 'ehr') {
+            document.getElementById('mcp-clinical').classList.add('active-ping');
+          } else if (log.role === 'pharmacy') {
+            document.getElementById('mcp-safety').classList.add('active-ping');
+          } else if (log.role === 'billing') {
+            document.getElementById('mcp-billing').classList.add('active-ping');
+          }
+
+          // Create terminal entry
+          const line = document.createElement('div');
+          line.className = 'terminal-line';
+          
+          let roleLabel = '';
+          let textStyle = '';
+          if (log.role === 'system') {
+            roleLabel = `<span style="color: var(--text-muted);">[SYS]</span>`;
+            textStyle = 'color: var(--text-secondary);';
+          } else if (log.role === 'agent') {
+            roleLabel = `<span class="agent-self">AGT:</span>`;
+            textStyle = 'color: var(--text-primary);';
+          } else if (log.role === 'ehr') {
+            roleLabel = `<span style="color: var(--primary-blue); font-weight:bold;">EHR:</span>`;
+            textStyle = 'color: var(--text-secondary);';
+          } else if (log.role === 'pharmacy') {
+            roleLabel = `<span style="color: var(--yellow-glow); font-weight:bold;">PHRM:</span>`;
+            textStyle = 'color: var(--text-secondary);';
+          } else if (log.role === 'billing') {
+            roleLabel = `<span style="color: var(--accent-purple); font-weight:bold;">BILL:</span>`;
+            textStyle = 'color: var(--text-secondary);';
+          } else if (log.role === 'error') {
+            roleLabel = `<span class="privacy-alert" style="color: var(--not-ready-red); border-left-color: var(--not-ready-red);">ERR:</span>`;
+            textStyle = 'color: var(--not-ready-red); font-weight:bold;';
+          }
+
+          let content = `<span class="prompt-symbol">&gt;</span> ${roleLabel} <span style="${textStyle}">${escapeHtml(log.message)}</span>`;
+          
+          if (log.data) {
+            let dataStr = typeof log.data === 'object' ? JSON.stringify(log.data, null, 2) : String(log.data);
+            content += `<pre style="font-family: var(--font-mono); font-size: 0.8rem; color: #a7f3d0; background: rgba(0,0,0,0.6); padding: 0.50rem; margin-top: 0.25rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.05); overflow-x: auto; white-space: pre-wrap; word-break: break-all; text-align: left;">${escapeHtml(dataStr)}</pre>`;
+          }
+
+          line.innerHTML = content;
+          reasoningOutput.appendChild(line);
+          reasoningOutput.scrollTop = reasoningOutput.scrollHeight;
+        }
+
+        // Finish up, deactivate active MCP server pings
+        document.querySelectorAll('.mcp-card').forEach(card => card.classList.remove('active-ping'));
+        
+        // Analyze final results to determine outcome
+        let workflowSuccess = true;
+        let phiLeakageError = false;
+        let finalStatusMsg = "";
+        let detailsList = [];
+
+        logs.forEach(l => {
+          if (l.role === 'error') {
+            workflowSuccess = false;
+            finalStatusMsg = l.message;
+          }
+          if (l.role === 'billing' && l.message.includes("PHI LEAKAGE")) {
+            phiLeakageError = true;
+          }
+          // Collect specific outcomes from logs
+          if (l.role === 'billing' && l.message === "Invoice Created" && l.data) {
+            detailsList.push(`Billing Invoice generated successfully. Code: ${l.data.items?.[0]?.code || 'N/A'}, Total: $${l.data.total_amount || 0}`);
+          }
+          if (l.role === 'pharmacy' && l.message.includes("resolved") && l.data) {
+            detailsList.push(`Medication brand-to-generic resolved: ${l.data}`);
+          }
+          if (l.role === 'pharmacy' && l.message.includes("Alternatives provided")) {
+            detailsList.push(`Medication out of stock; suggested alternative: ${l.data?.[0] || 'N/A'}`);
+          }
+        });
+
+        // Update terminal header status
+        terminalState.textContent = (workflowSuccess && !phiLeakageError) ? 'COMPLETED' : 'FAILED';
+        terminalState.style.color = (workflowSuccess && !phiLeakageError) ? 'var(--ready-green)' : 'var(--not-ready-red)';
+
+        // Display outcome card
+        setTimeout(() => {
+          statusCard.classList.add('activated');
+          if (workflowSuccess && !phiLeakageError) {
+            statusCard.classList.add('ready-state');
+            outcomeBadge.className = 'status-indicator';
+            outcomeBadge.style.backgroundColor = 'var(--ready-glow)';
+            outcomeBadge.style.color = 'var(--ready-green)';
+            outcomeBadge.style.borderColor = 'var(--ready-green)';
+            outcomeBadge.textContent = 'READY';
+            
+            let bulletHtml = `<strong>The autonomous agent successfully completed the coordination flow:</strong><ul>`;
+            if (detailsList.length === 0) {
+              bulletHtml += `<li>All clinical, pharmacy, and billing checkpoints verified.</li>`;
+            } else {
+              detailsList.forEach(bullet => {
+                bulletHtml += `<li>${bullet}</li>`;
+              });
+            }
+            bulletHtml += `<li>Tool-level privacy boundaries and RBAC policy checks passed.</li>`;
+            bulletHtml += `</ul>`;
+            outcomeDetails.innerHTML = bulletHtml;
+          } else {
+            statusCard.classList.add('not-ready-state');
+            outcomeBadge.className = 'status-indicator';
+            outcomeBadge.style.backgroundColor = 'var(--not-ready-glow)';
+            outcomeBadge.style.color = 'var(--not-ready-red)';
+            outcomeBadge.style.borderColor = 'var(--not-ready-red)';
+            outcomeBadge.textContent = 'NOT READY';
+
+            let bulletHtml = `<strong>Discharge coordination halted due to validation checks:</strong><ul>`;
+            if (phiLeakageError) {
+              bulletHtml += `<li>Privacy Guard Blocked: PHI leakage attempt detected on billing payload.</li>`;
+            }
+            if (finalStatusMsg) {
+              bulletHtml += `<li>Workflow Error: ${escapeHtml(finalStatusMsg)}</li>`;
+            }
+            if (detailsList.length > 0) {
+              detailsList.forEach(bullet => {
+                bulletHtml += `<li>${bullet}</li>`;
+              });
+            }
+            bulletHtml += `<li>Verify clinical notes isolation and try again.</li>`;
+            bulletHtml += `</ul>`;
+            outcomeDetails.innerHTML = bulletHtml;
+          }
+
+          // Re-enable button
+          checkBtn.disabled = false;
+          checkBtn.style.opacity = '1';
+        }, 500);
+
+      } catch (e) {
+        console.error(e);
+        terminalState.textContent = 'ERROR';
+        terminalState.style.color = 'var(--not-ready-red)';
+        
+        statusCard.classList.add('activated');
+        statusCard.classList.add('not-ready-state');
+        outcomeBadge.className = 'status-indicator';
+        outcomeBadge.textContent = 'ERROR';
+        outcomeDetails.innerHTML = `<strong>Failed to communicate with API server:</strong><br>${escapeHtml(e.message)}`;
+        
+        checkBtn.disabled = false;
+        checkBtn.style.opacity = '1';
+      }
+    });
+
+    function escapeHtml(unsafe) {
+      if (!unsafe) return '';
+      return unsafe
+        .toString()
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+  </script>
+</body>
+</html>

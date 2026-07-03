@@ -1,0 +1,25 @@
+# Virtual Environment
+projectenv/
+
+# Python caches
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Agent-specific directories & task logs
+.system_generated/
+*.log
+
+# Workspace metadata
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+Thumbs.db
+desktop.ini
